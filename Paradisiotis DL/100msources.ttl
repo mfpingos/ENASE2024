@@ -1,0 +1,1903 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix ex: <http://example.org/>.
+
+ex:source1
+  rdf:type ex:Description ;
+  ex:source_name "1_FLOCK_Daily_EXPORT-18-11-2023" ;
+  ex:flockid "1" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2023-11-18" ;
+  ex:feedcycle_end "2023-12-05" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_1_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "16712" ;
+  ex:year "2023" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "35 KB" ;
+  .
+
+ex:source2
+  rdf:type ex:Description ;
+  ex:source_name "2_FLOCK_Daily_EXPORT-28-11-2022" ;
+  ex:flockid "2" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2022-11-28" ;
+  ex:feedcycle_end "2022-12-13" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_2_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "11000" ;
+  ex:year "2022" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "16 KB" ;
+  .
+
+ex:source3
+  rdf:type ex:Description ;
+  ex:source_name "3_FLOCK_Daily_EXPORT-28-12-2023" ;
+  ex:flockid "3" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2023-12-28" ;
+  ex:feedcycle_end "2024-03-10" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_3_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13172" ;
+  ex:year "2024" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "78 KB" ;
+  .
+
+ex:source4
+  rdf:type ex:Description ;
+  ex:source_name "4_FLOCK_Monthly_EXPORT-11-04-2023" ;
+  ex:flockid "4" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2023-04-11" ;
+  ex:feedcycle_end "2023-04-12" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_4_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "11343" ;
+  ex:year "2023" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "15 KB" ;
+  .
+
+ex:source5
+  rdf:type ex:Description ;
+  ex:source_name "5_FLOCK_Hourly_EXPORT-13-06-2022" ;
+  ex:flockid "5" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2022-06-13" ;
+  ex:feedcycle_end "2022-09-04" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_5_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "19412" ;
+  ex:year "2022" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "64 KB" ;
+  .
+
+ex:source6
+  rdf:type ex:Description ;
+  ex:source_name "6_FLOCK_Yearly_EXPORT-09-06-2023" ;
+  ex:flockid "6" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2023-06-09" ;
+  ex:feedcycle_end "2023-07-03" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_6_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13845" ;
+  ex:year "2023" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "71 KB" ;
+  .
+
+ex:source7
+  rdf:type ex:Description ;
+  ex:source_name "7_FLOCK_Daily_EXPORT-08-11-2020" ;
+  ex:flockid "7" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2020-11-08" ;
+  ex:feedcycle_end "2021-01-09" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_7_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "14017" ;
+  ex:year "2021" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "87 KB" ;
+  .
+
+ex:source8
+  rdf:type ex:Description ;
+  ex:source_name "8_FLOCK_Yearly_EXPORT-10-03-2021" ;
+  ex:flockid "8" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2021-03-10" ;
+  ex:feedcycle_end "2021-07-05" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_8_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13555" ;
+  ex:year "2021" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "87 KB" ;
+  .
+
+ex:source9
+  rdf:type ex:Description ;
+  ex:source_name "9_FLOCK_Hourly_EXPORT-12-09-2023" ;
+  ex:flockid "9" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2023-09-12" ;
+  ex:feedcycle_end "2023-12-27" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_9_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "16218" ;
+  ex:year "2023" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "13 KB" ;
+  .
+
+ex:source10
+  rdf:type ex:Description ;
+  ex:source_name "10_FLOCK_Yearly_EXPORT-20-05-2023" ;
+  ex:flockid "10" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2023-05-20" ;
+  ex:feedcycle_end "2023-07-04" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_10_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "18674" ;
+  ex:year "2023" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "60 KB" ;
+  .
+
+ex:source11
+  rdf:type ex:Description ;
+  ex:source_name "11_FLOCK_Hourly_EXPORT-11-05-2019" ;
+  ex:flockid "11" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2019-05-11" ;
+  ex:feedcycle_end "2019-08-07" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_11_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "18761" ;
+  ex:year "2019" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "27 KB" ;
+  .
+
+ex:source12
+  rdf:type ex:Description ;
+  ex:source_name "12_FLOCK_Monthly_EXPORT-18-03-2023" ;
+  ex:flockid "12" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2023-03-18" ;
+  ex:feedcycle_end "2023-05-04" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_12_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "18662" ;
+  ex:year "2023" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "65 KB" ;
+  .
+
+ex:source13
+  rdf:type ex:Description ;
+  ex:source_name "13_FLOCK_Hourly_EXPORT-14-07-2022" ;
+  ex:flockid "13" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2022-07-14" ;
+  ex:feedcycle_end "2022-08-16" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_13_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "12739" ;
+  ex:year "2022" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "92 KB" ;
+  .
+
+ex:source14
+  rdf:type ex:Description ;
+  ex:source_name "14_FLOCK_Monthly_EXPORT-20-11-2020" ;
+  ex:flockid "14" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2020-11-20" ;
+  ex:feedcycle_end "2021-03-06" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_14_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "16461" ;
+  ex:year "2021" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "44 KB" ;
+  .
+
+ex:source15
+  rdf:type ex:Description ;
+  ex:source_name "15_FLOCK_Yearly_EXPORT-21-05-2022" ;
+  ex:flockid "15" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2022-05-21" ;
+  ex:feedcycle_end "2022-07-09" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_15_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13737" ;
+  ex:year "2022" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "52 KB" ;
+  .
+
+ex:source16
+  rdf:type ex:Description ;
+  ex:source_name "16_FLOCK_Hourly_EXPORT-27-07-2023" ;
+  ex:flockid "16" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2023-07-27" ;
+  ex:feedcycle_end "2023-10-18" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_16_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "10568" ;
+  ex:year "2023" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "73 KB" ;
+  .
+
+ex:source17
+  rdf:type ex:Description ;
+  ex:source_name "17_FLOCK_Monthly_EXPORT-13-06-2021" ;
+  ex:flockid "17" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2021-06-13" ;
+  ex:feedcycle_end "2021-07-03" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_17_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "14300" ;
+  ex:year "2021" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "96 KB" ;
+  .
+
+ex:source18
+  rdf:type ex:Description ;
+  ex:source_name "18_FLOCK_Hourly_EXPORT-24-08-2019" ;
+  ex:flockid "18" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2019-08-24" ;
+  ex:feedcycle_end "2019-11-24" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_18_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "15189" ;
+  ex:year "2019" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "10 KB" ;
+  .
+
+ex:source19
+  rdf:type ex:Description ;
+  ex:source_name "19_FLOCK_Hourly_EXPORT-19-02-2021" ;
+  ex:flockid "19" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2021-02-19" ;
+  ex:feedcycle_end "2021-03-12" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_19_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "12980" ;
+  ex:year "2021" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "56 KB" ;
+  .
+
+ex:source20
+  rdf:type ex:Description ;
+  ex:source_name "20_FLOCK_Monthly_EXPORT-29-04-2021" ;
+  ex:flockid "20" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2021-04-29" ;
+  ex:feedcycle_end "2021-07-10" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_20_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "17943" ;
+  ex:year "2021" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "13 KB" ;
+  .
+
+ex:source21
+  rdf:type ex:Description ;
+  ex:source_name "21_FLOCK_Yearly_EXPORT-25-01-2023" ;
+  ex:flockid "21" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2023-01-25" ;
+  ex:feedcycle_end "2023-05-24" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_21_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "18633" ;
+  ex:year "2023" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "100 KB" ;
+  .
+
+ex:source22
+  rdf:type ex:Description ;
+  ex:source_name "22_FLOCK_Monthly_EXPORT-24-09-2021" ;
+  ex:flockid "22" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2021-09-24" ;
+  ex:feedcycle_end "2021-11-21" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_22_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "10589" ;
+  ex:year "2021" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "92 KB" ;
+  .
+
+ex:source23
+  rdf:type ex:Description ;
+  ex:source_name "23_FLOCK_Daily_EXPORT-04-11-2023" ;
+  ex:flockid "23" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2023-11-04" ;
+  ex:feedcycle_end "2023-12-13" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_23_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "14744" ;
+  ex:year "2023" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "66 KB" ;
+  .
+
+ex:source24
+  rdf:type ex:Description ;
+  ex:source_name "24_FLOCK_Daily_EXPORT-22-12-2022" ;
+  ex:flockid "24" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2022-12-22" ;
+  ex:feedcycle_end "2023-04-04" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_24_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "11569" ;
+  ex:year "2023" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "5 KB" ;
+  .
+
+ex:source25
+  rdf:type ex:Description ;
+  ex:source_name "25_FLOCK_Yearly_EXPORT-02-12-2023" ;
+  ex:flockid "25" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2023-12-02" ;
+  ex:feedcycle_end "2024-02-07" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_25_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "17983" ;
+  ex:year "2024" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "58 KB" ;
+  .
+
+ex:source26
+  rdf:type ex:Description ;
+  ex:source_name "26_FLOCK_Monthly_EXPORT-24-10-2020" ;
+  ex:flockid "26" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2020-10-24" ;
+  ex:feedcycle_end "2021-01-05" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_26_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "15450" ;
+  ex:year "2021" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "9 KB" ;
+  .
+
+ex:source27
+  rdf:type ex:Description ;
+  ex:source_name "27_FLOCK_Monthly_EXPORT-09-04-2019" ;
+  ex:flockid "27" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2019-04-09" ;
+  ex:feedcycle_end "2019-04-27" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_27_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "14312" ;
+  ex:year "2019" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "57 KB" ;
+  .
+
+ex:source28
+  rdf:type ex:Description ;
+  ex:source_name "28_FLOCK_Daily_EXPORT-21-05-2019" ;
+  ex:flockid "28" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2019-05-21" ;
+  ex:feedcycle_end "2019-07-09" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_28_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13389" ;
+  ex:year "2019" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "98 KB" ;
+  .
+
+ex:source29
+  rdf:type ex:Description ;
+  ex:source_name "29_FLOCK_Monthly_EXPORT-08-10-2022" ;
+  ex:flockid "29" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2022-10-08" ;
+  ex:feedcycle_end "2022-10-27" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_29_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "17568" ;
+  ex:year "2022" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "23 KB" ;
+  .
+
+ex:source30
+  rdf:type ex:Description ;
+  ex:source_name "30_FLOCK_Daily_EXPORT-26-08-2021" ;
+  ex:flockid "30" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2021-08-26" ;
+  ex:feedcycle_end "2021-12-21" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_30_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "18757" ;
+  ex:year "2021" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "21 KB" ;
+  .
+
+ex:source31
+  rdf:type ex:Description ;
+  ex:source_name "31_FLOCK_Yearly_EXPORT-03-08-2020" ;
+  ex:flockid "31" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2020-08-03" ;
+  ex:feedcycle_end "2020-11-25" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_31_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13506" ;
+  ex:year "2020" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "47 KB" ;
+  .
+
+ex:source32
+  rdf:type ex:Description ;
+  ex:source_name "32_FLOCK_Yearly_EXPORT-06-10-2020" ;
+  ex:flockid "32" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2020-10-06" ;
+  ex:feedcycle_end "2020-10-19" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_32_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "14664" ;
+  ex:year "2020" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "1 KB" ;
+  .
+
+ex:source33
+  rdf:type ex:Description ;
+  ex:source_name "33_FLOCK_Daily_EXPORT-31-07-2019" ;
+  ex:flockid "33" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2019-07-31" ;
+  ex:feedcycle_end "2019-11-24" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_33_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "15560" ;
+  ex:year "2019" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "31 KB" ;
+  .
+
+ex:source34
+  rdf:type ex:Description ;
+  ex:source_name "34_FLOCK_Yearly_EXPORT-26-01-2022" ;
+  ex:flockid "34" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2022-01-26" ;
+  ex:feedcycle_end "2022-05-01" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_34_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "17071" ;
+  ex:year "2022" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "98 KB" ;
+  .
+
+ex:source35
+  rdf:type ex:Description ;
+  ex:source_name "35_FLOCK_Daily_EXPORT-19-05-2022" ;
+  ex:flockid "35" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2022-05-19" ;
+  ex:feedcycle_end "2022-07-27" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_35_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "11858" ;
+  ex:year "2022" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "45 KB" ;
+  .
+
+ex:source36
+  rdf:type ex:Description ;
+  ex:source_name "36_FLOCK_Hourly_EXPORT-04-07-2023" ;
+  ex:flockid "36" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2023-07-04" ;
+  ex:feedcycle_end "2023-07-30" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_36_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "10672" ;
+  ex:year "2023" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "64 KB" ;
+  .
+
+ex:source37
+  rdf:type ex:Description ;
+  ex:source_name "37_FLOCK_Daily_EXPORT-29-12-2023" ;
+  ex:flockid "37" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2023-12-29" ;
+  ex:feedcycle_end "2024-01-13" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_37_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "16949" ;
+  ex:year "2024" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "88 KB" ;
+  .
+
+ex:source38
+  rdf:type ex:Description ;
+  ex:source_name "38_FLOCK_Hourly_EXPORT-27-05-2022" ;
+  ex:flockid "38" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2022-05-27" ;
+  ex:feedcycle_end "2022-06-24" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_38_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "10333" ;
+  ex:year "2022" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "5 KB" ;
+  .
+
+ex:source39
+  rdf:type ex:Description ;
+  ex:source_name "39_FLOCK_Yearly_EXPORT-13-03-2022" ;
+  ex:flockid "39" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2022-03-13" ;
+  ex:feedcycle_end "2022-06-27" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_39_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "10511" ;
+  ex:year "2022" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "3 KB" ;
+  .
+
+ex:source40
+  rdf:type ex:Description ;
+  ex:source_name "40_FLOCK_Monthly_EXPORT-19-12-2021" ;
+  ex:flockid "40" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2021-12-19" ;
+  ex:feedcycle_end "2022-01-15" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_40_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "16461" ;
+  ex:year "2022" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "7 KB" ;
+  .
+
+ex:source41
+  rdf:type ex:Description ;
+  ex:source_name "41_FLOCK_Yearly_EXPORT-26-05-2019" ;
+  ex:flockid "41" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2019-05-26" ;
+  ex:feedcycle_end "2019-09-06" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_41_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "14360" ;
+  ex:year "2019" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "69 KB" ;
+  .
+
+ex:source42
+  rdf:type ex:Description ;
+  ex:source_name "42_FLOCK_Daily_EXPORT-27-03-2019" ;
+  ex:flockid "42" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2019-03-27" ;
+  ex:feedcycle_end "2019-04-28" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_42_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "19920" ;
+  ex:year "2019" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "83 KB" ;
+  .
+
+ex:source43
+  rdf:type ex:Description ;
+  ex:source_name "43_FLOCK_Hourly_EXPORT-02-12-2019" ;
+  ex:flockid "43" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2019-12-02" ;
+  ex:feedcycle_end "2020-01-14" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_43_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "19248" ;
+  ex:year "2020" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "24 KB" ;
+  .
+
+ex:source44
+  rdf:type ex:Description ;
+  ex:source_name "44_FLOCK_Daily_EXPORT-20-06-2021" ;
+  ex:flockid "44" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2021-06-20" ;
+  ex:feedcycle_end "2021-07-16" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_44_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "12738" ;
+  ex:year "2021" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "2 KB" ;
+  .
+
+ex:source45
+  rdf:type ex:Description ;
+  ex:source_name "45_FLOCK_Daily_EXPORT-16-11-2023" ;
+  ex:flockid "45" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2023-11-16" ;
+  ex:feedcycle_end "2024-01-23" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_45_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13626" ;
+  ex:year "2024" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "62 KB" ;
+  .
+
+ex:source46
+  rdf:type ex:Description ;
+  ex:source_name "46_FLOCK_Monthly_EXPORT-17-04-2019" ;
+  ex:flockid "46" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2019-04-17" ;
+  ex:feedcycle_end "2019-05-15" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_46_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13002" ;
+  ex:year "2019" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "34 KB" ;
+  .
+
+ex:source47
+  rdf:type ex:Description ;
+  ex:source_name "47_FLOCK_Monthly_EXPORT-01-11-2019" ;
+  ex:flockid "47" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2019-11-01" ;
+  ex:feedcycle_end "2019-11-14" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_47_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13262" ;
+  ex:year "2019" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "84 KB" ;
+  .
+
+ex:source48
+  rdf:type ex:Description ;
+  ex:source_name "48_FLOCK_Yearly_EXPORT-10-08-2019" ;
+  ex:flockid "48" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2019-08-10" ;
+  ex:feedcycle_end "2019-11-14" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_48_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "11538" ;
+  ex:year "2019" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "88 KB" ;
+  .
+
+ex:source49
+  rdf:type ex:Description ;
+  ex:source_name "49_FLOCK_Yearly_EXPORT-11-07-2019" ;
+  ex:flockid "49" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2019-07-11" ;
+  ex:feedcycle_end "2019-10-30" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_49_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "17937" ;
+  ex:year "2019" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "96 KB" ;
+  .
+
+ex:source50
+  rdf:type ex:Description ;
+  ex:source_name "50_FLOCK_Daily_EXPORT-08-10-2023" ;
+  ex:flockid "50" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2023-10-08" ;
+  ex:feedcycle_end "2023-11-17" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_50_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "12886" ;
+  ex:year "2023" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "36 KB" ;
+  .
+
+ex:source51
+  rdf:type ex:Description ;
+  ex:source_name "51_FLOCK_Hourly_EXPORT-27-02-2022" ;
+  ex:flockid "51" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2022-02-27" ;
+  ex:feedcycle_end "2022-03-09" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_51_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13773" ;
+  ex:year "2022" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "51 KB" ;
+  .
+
+ex:source52
+  rdf:type ex:Description ;
+  ex:source_name "52_FLOCK_Yearly_EXPORT-21-10-2020" ;
+  ex:flockid "52" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2020-10-21" ;
+  ex:feedcycle_end "2020-10-25" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_52_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "17787" ;
+  ex:year "2020" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "53 KB" ;
+  .
+
+ex:source53
+  rdf:type ex:Description ;
+  ex:source_name "53_FLOCK_Hourly_EXPORT-09-04-2021" ;
+  ex:flockid "53" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2021-04-09" ;
+  ex:feedcycle_end "2021-07-15" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_53_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "14567" ;
+  ex:year "2021" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "19 KB" ;
+  .
+
+ex:source54
+  rdf:type ex:Description ;
+  ex:source_name "54_FLOCK_Yearly_EXPORT-26-11-2021" ;
+  ex:flockid "54" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2021-11-26" ;
+  ex:feedcycle_end "2022-01-12" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_54_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "16861" ;
+  ex:year "2022" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "79 KB" ;
+  .
+
+ex:source55
+  rdf:type ex:Description ;
+  ex:source_name "55_FLOCK_Daily_EXPORT-28-08-2022" ;
+  ex:flockid "55" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2022-08-28" ;
+  ex:feedcycle_end "2022-12-17" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_55_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "11132" ;
+  ex:year "2022" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "29 KB" ;
+  .
+
+ex:source56
+  rdf:type ex:Description ;
+  ex:source_name "56_FLOCK_Hourly_EXPORT-18-01-2020" ;
+  ex:flockid "56" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2020-01-18" ;
+  ex:feedcycle_end "2020-05-14" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_56_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "16186" ;
+  ex:year "2020" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "78 KB" ;
+  .
+
+ex:source57
+  rdf:type ex:Description ;
+  ex:source_name "57_FLOCK_Monthly_EXPORT-18-05-2019" ;
+  ex:flockid "57" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2019-05-18" ;
+  ex:feedcycle_end "2019-07-27" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_57_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "16680" ;
+  ex:year "2019" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "5 KB" ;
+  .
+
+ex:source58
+  rdf:type ex:Description ;
+  ex:source_name "58_FLOCK_Daily_EXPORT-01-01-2019" ;
+  ex:flockid "58" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2019-01-01" ;
+  ex:feedcycle_end "2019-01-24" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_58_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "18767" ;
+  ex:year "2019" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "72 KB" ;
+  .
+
+ex:source59
+  rdf:type ex:Description ;
+  ex:source_name "59_FLOCK_Hourly_EXPORT-02-11-2022" ;
+  ex:flockid "59" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2022-11-02" ;
+  ex:feedcycle_end "2023-02-06" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_59_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "18667" ;
+  ex:year "2023" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "56 KB" ;
+  .
+
+ex:source60
+  rdf:type ex:Description ;
+  ex:source_name "60_FLOCK_Daily_EXPORT-30-09-2020" ;
+  ex:flockid "60" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2020-09-30" ;
+  ex:feedcycle_end "2020-11-15" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_60_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "17267" ;
+  ex:year "2020" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "33 KB" ;
+  .
+
+ex:source61
+  rdf:type ex:Description ;
+  ex:source_name "61_FLOCK_Daily_EXPORT-10-08-2021" ;
+  ex:flockid "61" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2021-08-10" ;
+  ex:feedcycle_end "2021-10-08" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_61_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "12243" ;
+  ex:year "2021" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "86 KB" ;
+  .
+
+ex:source62
+  rdf:type ex:Description ;
+  ex:source_name "62_FLOCK_Monthly_EXPORT-04-10-2020" ;
+  ex:flockid "62" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2020-10-04" ;
+  ex:feedcycle_end "2020-11-29" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_62_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13920" ;
+  ex:year "2020" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "100 KB" ;
+  .
+
+ex:source63
+  rdf:type ex:Description ;
+  ex:source_name "63_FLOCK_Daily_EXPORT-22-05-2021" ;
+  ex:flockid "63" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2021-05-22" ;
+  ex:feedcycle_end "2021-08-23" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_63_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "10547" ;
+  ex:year "2021" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "74 KB" ;
+  .
+
+ex:source64
+  rdf:type ex:Description ;
+  ex:source_name "64_FLOCK_Hourly_EXPORT-29-11-2022" ;
+  ex:flockid "64" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2022-11-29" ;
+  ex:feedcycle_end "2023-01-25" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_64_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "17151" ;
+  ex:year "2023" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "63 KB" ;
+  .
+
+ex:source65
+  rdf:type ex:Description ;
+  ex:source_name "65_FLOCK_Hourly_EXPORT-30-12-2020" ;
+  ex:flockid "65" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2020-12-30" ;
+  ex:feedcycle_end "2021-04-09" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_65_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "10071" ;
+  ex:year "2021" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "14 KB" ;
+  .
+
+ex:source66
+  rdf:type ex:Description ;
+  ex:source_name "66_FLOCK_Monthly_EXPORT-21-01-2023" ;
+  ex:flockid "66" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2023-01-21" ;
+  ex:feedcycle_end "2023-02-22" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_66_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "19928" ;
+  ex:year "2023" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "55 KB" ;
+  .
+
+ex:source67
+  rdf:type ex:Description ;
+  ex:source_name "67_FLOCK_Daily_EXPORT-07-12-2020" ;
+  ex:flockid "67" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2020-12-07" ;
+  ex:feedcycle_end "2020-12-23" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_67_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "19794" ;
+  ex:year "2020" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "91 KB" ;
+  .
+
+ex:source68
+  rdf:type ex:Description ;
+  ex:source_name "68_FLOCK_Hourly_EXPORT-12-04-2021" ;
+  ex:flockid "68" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2021-04-12" ;
+  ex:feedcycle_end "2021-05-07" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_68_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "11154" ;
+  ex:year "2021" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "88 KB" ;
+  .
+
+ex:source69
+  rdf:type ex:Description ;
+  ex:source_name "69_FLOCK_Hourly_EXPORT-08-12-2020" ;
+  ex:flockid "69" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2020-12-08" ;
+  ex:feedcycle_end "2021-01-24" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_69_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "11733" ;
+  ex:year "2021" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "100 KB" ;
+  .
+
+ex:source70
+  rdf:type ex:Description ;
+  ex:source_name "70_FLOCK_Daily_EXPORT-01-11-2019" ;
+  ex:flockid "70" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2019-11-01" ;
+  ex:feedcycle_end "2019-11-10" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_70_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "19056" ;
+  ex:year "2019" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "45 KB" ;
+  .
+
+ex:source71
+  rdf:type ex:Description ;
+  ex:source_name "71_FLOCK_Hourly_EXPORT-14-04-2020" ;
+  ex:flockid "71" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2020-04-14" ;
+  ex:feedcycle_end "2020-05-15" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_71_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "10386" ;
+  ex:year "2020" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "38 KB" ;
+  .
+
+ex:source72
+  rdf:type ex:Description ;
+  ex:source_name "72_FLOCK_Daily_EXPORT-28-09-2020" ;
+  ex:flockid "72" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2020-09-28" ;
+  ex:feedcycle_end "2020-11-27" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_72_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "19148" ;
+  ex:year "2020" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "41 KB" ;
+  .
+
+ex:source73
+  rdf:type ex:Description ;
+  ex:source_name "73_FLOCK_Monthly_EXPORT-08-06-2022" ;
+  ex:flockid "73" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2022-06-08" ;
+  ex:feedcycle_end "2022-06-29" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_73_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "16639" ;
+  ex:year "2022" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "64 KB" ;
+  .
+
+ex:source74
+  rdf:type ex:Description ;
+  ex:source_name "74_FLOCK_Monthly_EXPORT-27-12-2019" ;
+  ex:flockid "74" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2019-12-27" ;
+  ex:feedcycle_end "2020-04-13" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_74_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "14379" ;
+  ex:year "2020" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "50 KB" ;
+  .
+
+ex:source75
+  rdf:type ex:Description ;
+  ex:source_name "75_FLOCK_Yearly_EXPORT-19-08-2020" ;
+  ex:flockid "75" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2020-08-19" ;
+  ex:feedcycle_end "2020-10-26" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_75_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13240" ;
+  ex:year "2020" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "97 KB" ;
+  .
+
+ex:source76
+  rdf:type ex:Description ;
+  ex:source_name "76_FLOCK_Hourly_EXPORT-31-12-2019" ;
+  ex:flockid "76" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2019-12-31" ;
+  ex:feedcycle_end "2020-01-02" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_76_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "11837" ;
+  ex:year "2020" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "64 KB" ;
+  .
+
+ex:source77
+  rdf:type ex:Description ;
+  ex:source_name "77_FLOCK_Hourly_EXPORT-02-04-2023" ;
+  ex:flockid "77" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2023-04-02" ;
+  ex:feedcycle_end "2023-05-29" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_77_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "10893" ;
+  ex:year "2023" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "68 KB" ;
+  .
+
+ex:source78
+  rdf:type ex:Description ;
+  ex:source_name "78_FLOCK_Yearly_EXPORT-24-09-2020" ;
+  ex:flockid "78" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2020-09-24" ;
+  ex:feedcycle_end "2020-11-23" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_78_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "19747" ;
+  ex:year "2020" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "40 KB" ;
+  .
+
+ex:source79
+  rdf:type ex:Description ;
+  ex:source_name "79_FLOCK_Monthly_EXPORT-07-06-2019" ;
+  ex:flockid "79" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2019-06-07" ;
+  ex:feedcycle_end "2019-08-13" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_79_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "12768" ;
+  ex:year "2019" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "30 KB" ;
+  .
+
+ex:source80
+  rdf:type ex:Description ;
+  ex:source_name "80_FLOCK_Yearly_EXPORT-02-12-2023" ;
+  ex:flockid "80" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2023-12-02" ;
+  ex:feedcycle_end "2023-12-22" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_80_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "19764" ;
+  ex:year "2023" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "49 KB" ;
+  .
+
+ex:source81
+  rdf:type ex:Description ;
+  ex:source_name "81_FLOCK_Hourly_EXPORT-07-03-2022" ;
+  ex:flockid "81" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2022-03-07" ;
+  ex:feedcycle_end "2022-05-09" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_81_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "12360" ;
+  ex:year "2022" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "95 KB" ;
+  .
+
+ex:source82
+  rdf:type ex:Description ;
+  ex:source_name "82_FLOCK_Yearly_EXPORT-21-07-2023" ;
+  ex:flockid "82" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2023-07-21" ;
+  ex:feedcycle_end "2023-09-18" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_82_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "11010" ;
+  ex:year "2023" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "78 KB" ;
+  .
+
+ex:source83
+  rdf:type ex:Description ;
+  ex:source_name "83_FLOCK_Daily_EXPORT-04-02-2021" ;
+  ex:flockid "83" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2021-02-04" ;
+  ex:feedcycle_end "2021-06-03" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_83_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "15623" ;
+  ex:year "2021" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "93 KB" ;
+  .
+
+ex:source84
+  rdf:type ex:Description ;
+  ex:source_name "84_FLOCK_Hourly_EXPORT-28-10-2022" ;
+  ex:flockid "84" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2022-10-28" ;
+  ex:feedcycle_end "2023-01-21" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_84_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "16547" ;
+  ex:year "2023" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "12 KB" ;
+  .
+
+ex:source85
+  rdf:type ex:Description ;
+  ex:source_name "85_FLOCK_Hourly_EXPORT-07-03-2021" ;
+  ex:flockid "85" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2021-03-07" ;
+  ex:feedcycle_end "2021-04-06" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_85_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "15903" ;
+  ex:year "2021" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "21 KB" ;
+  .
+
+ex:source86
+  rdf:type ex:Description ;
+  ex:source_name "86_FLOCK_Hourly_EXPORT-29-10-2022" ;
+  ex:flockid "86" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2022-10-29" ;
+  ex:feedcycle_end "2022-11-08" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_86_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "12063" ;
+  ex:year "2022" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "32 KB" ;
+  .
+
+ex:source87
+  rdf:type ex:Description ;
+  ex:source_name "87_FLOCK_Hourly_EXPORT-25-11-2019" ;
+  ex:flockid "87" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2019-11-25" ;
+  ex:feedcycle_end "2020-02-01" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_87_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "10956" ;
+  ex:year "2020" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "71 KB" ;
+  .
+
+ex:source88
+  rdf:type ex:Description ;
+  ex:source_name "88_FLOCK_Yearly_EXPORT-14-02-2021" ;
+  ex:flockid "88" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2021-02-14" ;
+  ex:feedcycle_end "2021-04-27" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_88_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13135" ;
+  ex:year "2021" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "51 KB" ;
+  .
+
+ex:source89
+  rdf:type ex:Description ;
+  ex:source_name "89_FLOCK_Daily_EXPORT-13-04-2023" ;
+  ex:flockid "89" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2023-04-13" ;
+  ex:feedcycle_end "2023-05-02" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_89_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "11540" ;
+  ex:year "2023" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "36 KB" ;
+  .
+
+ex:source90
+  rdf:type ex:Description ;
+  ex:source_name "90_FLOCK_Hourly_EXPORT-08-05-2023" ;
+  ex:flockid "90" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2023-05-08" ;
+  ex:feedcycle_end "2023-08-29" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_90_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "10432" ;
+  ex:year "2023" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "18 KB" ;
+  .
+
+ex:source91
+  rdf:type ex:Description ;
+  ex:source_name "91_FLOCK_Monthly_EXPORT-10-07-2023" ;
+  ex:flockid "91" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2023-07-10" ;
+  ex:feedcycle_end "2023-09-30" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_91_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "18620" ;
+  ex:year "2023" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "77 KB" ;
+  .
+
+ex:source92
+  rdf:type ex:Description ;
+  ex:source_name "92_FLOCK_Hourly_EXPORT-01-04-2022" ;
+  ex:flockid "92" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2022-04-01" ;
+  ex:feedcycle_end "2022-04-02" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_92_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "16638" ;
+  ex:year "2022" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "8 KB" ;
+  .
+
+ex:source93
+  rdf:type ex:Description ;
+  ex:source_name "93_FLOCK_Monthly_EXPORT-15-02-2020" ;
+  ex:flockid "93" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2020-02-15" ;
+  ex:feedcycle_end "2020-02-27" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_93_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "19519" ;
+  ex:year "2020" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "39 KB" ;
+  .
+
+ex:source94
+  rdf:type ex:Description ;
+  ex:source_name "94_FLOCK_Yearly_EXPORT-17-07-2021" ;
+  ex:flockid "94" ;
+  ex:location "Limassol" ;
+  ex:feedcycle_start "2021-07-17" ;
+  ex:feedcycle_end "2021-07-25" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_94_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "12014" ;
+  ex:year "2021" ;
+  ex:flock_size "Low" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "74 KB" ;
+  .
+
+ex:source95
+  rdf:type ex:Description ;
+  ex:source_name "95_FLOCK_Monthly_EXPORT-18-03-2020" ;
+  ex:flockid "95" ;
+  ex:location "Nicosia" ;
+  ex:feedcycle_start "2020-03-18" ;
+  ex:feedcycle_end "2020-06-19" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_95_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13113" ;
+  ex:year "2020" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "93 KB" ;
+  .
+
+ex:source96
+  rdf:type ex:Description ;
+  ex:source_name "96_FLOCK_Monthly_EXPORT-09-04-2023" ;
+  ex:flockid "96" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2023-04-09" ;
+  ex:feedcycle_end "2023-07-02" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_96_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "15328" ;
+  ex:year "2023" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "1 KB" ;
+  .
+
+ex:source97
+  rdf:type ex:Description ;
+  ex:source_name "97_FLOCK_Yearly_EXPORT-20-07-2021" ;
+  ex:flockid "97" ;
+  ex:location "Larnaca" ;
+  ex:feedcycle_start "2021-07-20" ;
+  ex:feedcycle_end "2021-09-21" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_97_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "19469" ;
+  ex:year "2021" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "15 KB" ;
+  .
+
+ex:source98
+  rdf:type ex:Description ;
+  ex:source_name "98_FLOCK_Hourly_EXPORT-21-11-2019" ;
+  ex:flockid "98" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2019-11-21" ;
+  ex:feedcycle_end "2020-02-05" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_98_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "13529" ;
+  ex:year "2020" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "88 KB" ;
+  .
+
+ex:source99
+  rdf:type ex:Description ;
+  ex:source_name "99_FLOCK_Monthly_EXPORT-02-01-2023" ;
+  ex:flockid "99" ;
+  ex:location "Famagusta" ;
+  ex:feedcycle_start "2023-01-02" ;
+  ex:feedcycle_end "2023-02-19" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_99_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "14165" ;
+  ex:year "2023" ;
+  ex:flock_size "Medium" ;
+  ex:sensors_accuracy "Medium" ;
+  ex:volume "59 KB" ;
+  .
+
+ex:source100
+  rdf:type ex:Description ;
+  ex:source_name "100_FLOCK_Yearly_EXPORT-28-06-2019" ;
+  ex:flockid "100" ;
+  ex:location "Pafos" ;
+  ex:feedcycle_start "2019-06-28" ;
+  ex:feedcycle_end "2019-10-20" ;
+  ex:keywords "growDay, hour, requiredTemperature, coldTemperatureAlarm, hotTemperatureAlarm, sensor1, sensor2, sensor3, sensor4, sensor5, outsideTemp, currentAverageTemp, humidity, staticPressure, currentCO2, CO2HourMax, CO2HourMin" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_100_data" ;
+  ex:owner "Paradisiotis Group Of Companies" ;
+  ex:num_birds "19283" ;
+  ex:year "2019" ;
+  ex:flock_size "High" ;
+  ex:sensors_accuracy "High" ;
+  ex:volume "4 KB" ;
+  .
+

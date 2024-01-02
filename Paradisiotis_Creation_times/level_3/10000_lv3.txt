@@ -1,0 +1,203 @@
+Run number: 1
+Execution time for run 1: 1609 milliseconds
+Run number: 2
+Execution time for run 2: 1589 milliseconds
+Run number: 3
+Execution time for run 3: 1607 milliseconds
+Run number: 4
+Execution time for run 4: 1580 milliseconds
+Run number: 5
+Execution time for run 5: 1743 milliseconds
+Run number: 6
+Execution time for run 6: 1791 milliseconds
+Run number: 7
+Execution time for run 7: 1581 milliseconds
+Run number: 8
+Execution time for run 8: 1792 milliseconds
+Run number: 9
+Execution time for run 9: 1564 milliseconds
+Run number: 10
+Execution time for run 10: 1665 milliseconds
+Run number: 11
+Execution time for run 11: 1608 milliseconds
+Run number: 12
+Execution time for run 12: 1584 milliseconds
+Run number: 13
+Execution time for run 13: 1719 milliseconds
+Run number: 14
+Execution time for run 14: 1640 milliseconds
+Run number: 15
+Execution time for run 15: 1600 milliseconds
+Run number: 16
+Execution time for run 16: 1621 milliseconds
+Run number: 17
+Execution time for run 17: 1612 milliseconds
+Run number: 18
+Execution time for run 18: 1560 milliseconds
+Run number: 19
+Execution time for run 19: 1799 milliseconds
+Run number: 20
+Execution time for run 20: 1570 milliseconds
+Run number: 21
+Execution time for run 21: 1668 milliseconds
+Run number: 22
+Execution time for run 22: 1839 milliseconds
+Run number: 23
+Execution time for run 23: 1720 milliseconds
+Run number: 24
+Execution time for run 24: 1652 milliseconds
+Run number: 25
+Execution time for run 25: 1627 milliseconds
+Run number: 26
+Execution time for run 26: 1828 milliseconds
+Run number: 27
+Execution time for run 27: 1695 milliseconds
+Run number: 28
+Execution time for run 28: 1599 milliseconds
+Run number: 29
+Execution time for run 29: 1575 milliseconds
+Run number: 30
+Execution time for run 30: 1588 milliseconds
+Run number: 31
+Execution time for run 31: 1617 milliseconds
+Run number: 32
+Execution time for run 32: 1589 milliseconds
+Run number: 33
+Execution time for run 33: 1609 milliseconds
+Run number: 34
+Execution time for run 34: 1587 milliseconds
+Run number: 35
+Execution time for run 35: 1588 milliseconds
+Run number: 36
+Execution time for run 36: 1601 milliseconds
+Run number: 37
+Execution time for run 37: 1606 milliseconds
+Run number: 38
+Execution time for run 38: 1572 milliseconds
+Run number: 39
+Execution time for run 39: 1746 milliseconds
+Run number: 40
+Execution time for run 40: 1576 milliseconds
+Run number: 41
+Execution time for run 41: 1734 milliseconds
+Run number: 42
+Execution time for run 42: 1807 milliseconds
+Run number: 43
+Execution time for run 43: 1838 milliseconds
+Run number: 44
+Execution time for run 44: 1597 milliseconds
+Run number: 45
+Execution time for run 45: 1590 milliseconds
+Run number: 46
+Execution time for run 46: 1595 milliseconds
+Run number: 47
+Execution time for run 47: 1598 milliseconds
+Run number: 48
+Execution time for run 48: 1596 milliseconds
+Run number: 49
+Execution time for run 49: 1573 milliseconds
+Run number: 50
+Execution time for run 50: 1616 milliseconds
+Run number: 51
+Execution time for run 51: 1560 milliseconds
+Run number: 52
+Execution time for run 52: 1603 milliseconds
+Run number: 53
+Execution time for run 53: 1593 milliseconds
+Run number: 54
+Execution time for run 54: 1576 milliseconds
+Run number: 55
+Execution time for run 55: 1597 milliseconds
+Run number: 56
+Execution time for run 56: 1552 milliseconds
+Run number: 57
+Execution time for run 57: 1565 milliseconds
+Run number: 58
+Execution time for run 58: 1553 milliseconds
+Run number: 59
+Execution time for run 59: 1555 milliseconds
+Run number: 60
+Execution time for run 60: 1599 milliseconds
+Run number: 61
+Execution time for run 61: 1567 milliseconds
+Run number: 62
+Execution time for run 62: 1610 milliseconds
+Run number: 63
+Execution time for run 63: 1811 milliseconds
+Run number: 64
+Execution time for run 64: 1781 milliseconds
+Run number: 65
+Execution time for run 65: 1763 milliseconds
+Run number: 66
+Execution time for run 66: 1545 milliseconds
+Run number: 67
+Execution time for run 67: 1692 milliseconds
+Run number: 68
+Execution time for run 68: 1810 milliseconds
+Run number: 69
+Execution time for run 69: 1556 milliseconds
+Run number: 70
+Execution time for run 70: 1802 milliseconds
+Run number: 71
+Execution time for run 71: 1811 milliseconds
+Run number: 72
+Execution time for run 72: 1604 milliseconds
+Run number: 73
+Execution time for run 73: 1581 milliseconds
+Run number: 74
+Execution time for run 74: 1600 milliseconds
+Run number: 75
+Execution time for run 75: 1609 milliseconds
+Run number: 76
+Execution time for run 76: 1591 milliseconds
+Run number: 77
+Execution time for run 77: 1578 milliseconds
+Run number: 78
+Execution time for run 78: 1564 milliseconds
+Run number: 79
+Execution time for run 79: 1609 milliseconds
+Run number: 80
+Execution time for run 80: 1644 milliseconds
+Run number: 81
+Execution time for run 81: 1596 milliseconds
+Run number: 82
+Execution time for run 82: 1588 milliseconds
+Run number: 83
+Execution time for run 83: 1619 milliseconds
+Run number: 84
+Execution time for run 84: 1757 milliseconds
+Run number: 85
+Execution time for run 85: 1614 milliseconds
+Run number: 86
+Execution time for run 86: 1555 milliseconds
+Run number: 87
+Execution time for run 87: 1752 milliseconds
+Run number: 88
+Execution time for run 88: 1593 milliseconds
+Run number: 89
+Execution time for run 89: 1752 milliseconds
+Run number: 90
+Execution time for run 90: 1809 milliseconds
+Run number: 91
+Execution time for run 91: 1588 milliseconds
+Run number: 92
+Execution time for run 92: 1595 milliseconds
+Run number: 93
+Execution time for run 93: 1564 milliseconds
+Run number: 94
+Execution time for run 94: 1653 milliseconds
+Run number: 95
+Execution time for run 95: 1592 milliseconds
+Run number: 96
+Execution time for run 96: 1595 milliseconds
+Run number: 97
+Execution time for run 97: 1558 milliseconds
+Run number: 98
+Execution time for run 98: 1567 milliseconds
+Run number: 99
+Execution time for run 99: 1590 milliseconds
+Run number: 100
+Execution time for run 100: 1632 milliseconds
+Average execution time: 1637.10 milliseconds
+Average CPU usage: 99.00%
+Average memory usage: 33268.44 KB

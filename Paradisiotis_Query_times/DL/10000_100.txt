@@ -1,0 +1,1001 @@
+Run number: 1
+Run 1
+CPU Usage:
+User Time: 5.00 seconds
+System Time: 0.79 seconds
+Total Time: 0:02.67
+Memory Usage: 414840 KB
+Execution time for run 1: 2679 milliseconds
+Run 1: 7 rows
+
+Run number: 2
+Run 2
+CPU Usage:
+User Time: 5.27 seconds
+System Time: 0.72 seconds
+Total Time: 0:02.64
+Memory Usage: 431844 KB
+Execution time for run 2: 2652 milliseconds
+Run 2: 7 rows
+
+Run number: 3
+Run 3
+CPU Usage:
+User Time: 4.89 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.40
+Memory Usage: 415060 KB
+Execution time for run 3: 2410 milliseconds
+Run 3: 7 rows
+
+Run number: 4
+Run 4
+CPU Usage:
+User Time: 5.18 seconds
+System Time: 0.49 seconds
+Total Time: 0:02.51
+Memory Usage: 414876 KB
+Execution time for run 4: 2526 milliseconds
+Run 4: 7 rows
+
+Run number: 5
+Run 5
+CPU Usage:
+User Time: 4.91 seconds
+System Time: 0.55 seconds
+Total Time: 0:02.48
+Memory Usage: 415124 KB
+Execution time for run 5: 2496 milliseconds
+Run 5: 7 rows
+
+Run number: 6
+Run 6
+CPU Usage:
+User Time: 5.03 seconds
+System Time: 0.51 seconds
+Total Time: 0:02.50
+Memory Usage: 409276 KB
+Execution time for run 6: 2507 milliseconds
+Run 6: 7 rows
+
+Run number: 7
+Run 7
+CPU Usage:
+User Time: 4.89 seconds
+System Time: 0.49 seconds
+Total Time: 0:02.38
+Memory Usage: 413948 KB
+Execution time for run 7: 2393 milliseconds
+Run 7: 7 rows
+
+Run number: 8
+Run 8
+CPU Usage:
+User Time: 5.11 seconds
+System Time: 0.50 seconds
+Total Time: 0:02.49
+Memory Usage: 424792 KB
+Execution time for run 8: 2507 milliseconds
+Run 8: 7 rows
+
+Run number: 9
+Run 9
+CPU Usage:
+User Time: 4.80 seconds
+System Time: 0.50 seconds
+Total Time: 0:02.34
+Memory Usage: 414888 KB
+Execution time for run 9: 2347 milliseconds
+Run 9: 7 rows
+
+Run number: 10
+Run 10
+CPU Usage:
+User Time: 5.03 seconds
+System Time: 0.51 seconds
+Total Time: 0:02.41
+Memory Usage: 415580 KB
+Execution time for run 10: 2427 milliseconds
+Run 10: 7 rows
+
+Run number: 11
+Run 11
+CPU Usage:
+User Time: 5.05 seconds
+System Time: 0.45 seconds
+Total Time: 0:02.40
+Memory Usage: 410076 KB
+Execution time for run 11: 2412 milliseconds
+Run 11: 7 rows
+
+Run number: 12
+Run 12
+CPU Usage:
+User Time: 5.03 seconds
+System Time: 0.49 seconds
+Total Time: 0:02.45
+Memory Usage: 417416 KB
+Execution time for run 12: 2461 milliseconds
+Run 12: 7 rows
+
+Run number: 13
+Run 13
+CPU Usage:
+User Time: 5.09 seconds
+System Time: 0.52 seconds
+Total Time: 0:02.42
+Memory Usage: 414976 KB
+Execution time for run 13: 2429 milliseconds
+Run 13: 7 rows
+
+Run number: 14
+Run 14
+CPU Usage:
+User Time: 5.01 seconds
+System Time: 0.48 seconds
+Total Time: 0:02.41
+Memory Usage: 415060 KB
+Execution time for run 14: 2422 milliseconds
+Run 14: 7 rows
+
+Run number: 15
+Run 15
+CPU Usage:
+User Time: 4.94 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.39
+Memory Usage: 417908 KB
+Execution time for run 15: 2399 milliseconds
+Run 15: 7 rows
+
+Run number: 16
+Run 16
+CPU Usage:
+User Time: 4.87 seconds
+System Time: 0.50 seconds
+Total Time: 0:02.37
+Memory Usage: 411552 KB
+Execution time for run 16: 2380 milliseconds
+Run 16: 7 rows
+
+Run number: 17
+Run 17
+CPU Usage:
+User Time: 5.04 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.46
+Memory Usage: 413928 KB
+Execution time for run 17: 2467 milliseconds
+Run 17: 7 rows
+
+Run number: 18
+Run 18
+CPU Usage:
+User Time: 5.03 seconds
+System Time: 0.50 seconds
+Total Time: 0:02.41
+Memory Usage: 413468 KB
+Execution time for run 18: 2425 milliseconds
+Run 18: 7 rows
+
+Run number: 19
+Run 19
+CPU Usage:
+User Time: 4.87 seconds
+System Time: 0.50 seconds
+Total Time: 0:02.40
+Memory Usage: 414520 KB
+Execution time for run 19: 2416 milliseconds
+Run 19: 7 rows
+
+Run number: 20
+Run 20
+CPU Usage:
+User Time: 4.81 seconds
+System Time: 0.47 seconds
+Total Time: 0:02.32
+Memory Usage: 412604 KB
+Execution time for run 20: 2337 milliseconds
+Run 20: 7 rows
+
+Run number: 21
+Run 21
+CPU Usage:
+User Time: 4.99 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.36
+Memory Usage: 414712 KB
+Execution time for run 21: 2374 milliseconds
+Run 21: 7 rows
+
+Run number: 22
+Run 22
+CPU Usage:
+User Time: 5.03 seconds
+System Time: 0.44 seconds
+Total Time: 0:02.44
+Memory Usage: 415724 KB
+Execution time for run 22: 2457 milliseconds
+Run 22: 7 rows
+
+Run number: 23
+Run 23
+CPU Usage:
+User Time: 4.90 seconds
+System Time: 0.47 seconds
+Total Time: 0:02.33
+Memory Usage: 416308 KB
+Execution time for run 23: 2345 milliseconds
+Run 23: 7 rows
+
+Run number: 24
+Run 24
+CPU Usage:
+User Time: 4.97 seconds
+System Time: 0.51 seconds
+Total Time: 0:02.41
+Memory Usage: 413448 KB
+Execution time for run 24: 2427 milliseconds
+Run 24: 7 rows
+
+Run number: 25
+Run 25
+CPU Usage:
+User Time: 4.82 seconds
+System Time: 0.42 seconds
+Total Time: 0:02.34
+Memory Usage: 414684 KB
+Execution time for run 25: 2356 milliseconds
+Run 25: 7 rows
+
+Run number: 26
+Run 26
+CPU Usage:
+User Time: 4.96 seconds
+System Time: 0.48 seconds
+Total Time: 0:02.45
+Memory Usage: 414984 KB
+Execution time for run 26: 2459 milliseconds
+Run 26: 7 rows
+
+Run number: 27
+Run 27
+CPU Usage:
+User Time: 4.94 seconds
+System Time: 0.45 seconds
+Total Time: 0:02.33
+Memory Usage: 414152 KB
+Execution time for run 27: 2340 milliseconds
+Run 27: 7 rows
+
+Run number: 28
+Run 28
+CPU Usage:
+User Time: 4.83 seconds
+System Time: 0.44 seconds
+Total Time: 0:02.25
+Memory Usage: 415468 KB
+Execution time for run 28: 2259 milliseconds
+Run 28: 7 rows
+
+Run number: 29
+Run 29
+CPU Usage:
+User Time: 4.97 seconds
+System Time: 0.49 seconds
+Total Time: 0:02.43
+Memory Usage: 416236 KB
+Execution time for run 29: 2440 milliseconds
+Run 29: 7 rows
+
+Run number: 30
+Run 30
+CPU Usage:
+User Time: 4.97 seconds
+System Time: 0.40 seconds
+Total Time: 0:02.34
+Memory Usage: 413380 KB
+Execution time for run 30: 2348 milliseconds
+Run 30: 7 rows
+
+Run number: 31
+Run 31
+CPU Usage:
+User Time: 5.06 seconds
+System Time: 0.49 seconds
+Total Time: 0:02.39
+Memory Usage: 414312 KB
+Execution time for run 31: 2400 milliseconds
+Run 31: 7 rows
+
+Run number: 32
+Run 32
+CPU Usage:
+User Time: 5.02 seconds
+System Time: 0.52 seconds
+Total Time: 0:02.41
+Memory Usage: 416380 KB
+Execution time for run 32: 2418 milliseconds
+Run 32: 7 rows
+
+Run number: 33
+Run 33
+CPU Usage:
+User Time: 4.82 seconds
+System Time: 0.44 seconds
+Total Time: 0:02.29
+Memory Usage: 413316 KB
+Execution time for run 33: 2303 milliseconds
+Run 33: 7 rows
+
+Run number: 34
+Run 34
+CPU Usage:
+User Time: 4.89 seconds
+System Time: 0.44 seconds
+Total Time: 0:02.30
+Memory Usage: 413072 KB
+Execution time for run 34: 2316 milliseconds
+Run 34: 7 rows
+
+Run number: 35
+Run 35
+CPU Usage:
+User Time: 5.03 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.40
+Memory Usage: 413408 KB
+Execution time for run 35: 2413 milliseconds
+Run 35: 7 rows
+
+Run number: 36
+Run 36
+CPU Usage:
+User Time: 5.04 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.41
+Memory Usage: 416288 KB
+Execution time for run 36: 2421 milliseconds
+Run 36: 7 rows
+
+Run number: 37
+Run 37
+CPU Usage:
+User Time: 4.89 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.30
+Memory Usage: 418520 KB
+Execution time for run 37: 2309 milliseconds
+Run 37: 7 rows
+
+Run number: 38
+Run 38
+CPU Usage:
+User Time: 5.06 seconds
+System Time: 0.45 seconds
+Total Time: 0:02.46
+Memory Usage: 422984 KB
+Execution time for run 38: 2472 milliseconds
+Run 38: 7 rows
+
+Run number: 39
+Run 39
+CPU Usage:
+User Time: 4.98 seconds
+System Time: 0.47 seconds
+Total Time: 0:02.42
+Memory Usage: 415132 KB
+Execution time for run 39: 2430 milliseconds
+Run 39: 7 rows
+
+Run number: 40
+Run 40
+CPU Usage:
+User Time: 4.84 seconds
+System Time: 0.41 seconds
+Total Time: 0:02.31
+Memory Usage: 413108 KB
+Execution time for run 40: 2321 milliseconds
+Run 40: 7 rows
+
+Run number: 41
+Run 41
+CPU Usage:
+User Time: 5.07 seconds
+System Time: 0.49 seconds
+Total Time: 0:02.45
+Memory Usage: 414192 KB
+Execution time for run 41: 2464 milliseconds
+Run 41: 7 rows
+
+Run number: 42
+Run 42
+CPU Usage:
+User Time: 5.04 seconds
+System Time: 0.48 seconds
+Total Time: 0:02.41
+Memory Usage: 413464 KB
+Execution time for run 42: 2425 milliseconds
+Run 42: 7 rows
+
+Run number: 43
+Run 43
+CPU Usage:
+User Time: 5.00 seconds
+System Time: 0.48 seconds
+Total Time: 0:02.43
+Memory Usage: 414188 KB
+Execution time for run 43: 2444 milliseconds
+Run 43: 7 rows
+
+Run number: 44
+Run 44
+CPU Usage:
+User Time: 4.82 seconds
+System Time: 0.45 seconds
+Total Time: 0:02.31
+Memory Usage: 415184 KB
+Execution time for run 44: 2326 milliseconds
+Run 44: 7 rows
+
+Run number: 45
+Run 45
+CPU Usage:
+User Time: 4.94 seconds
+System Time: 0.49 seconds
+Total Time: 0:02.34
+Memory Usage: 416560 KB
+Execution time for run 45: 2354 milliseconds
+Run 45: 7 rows
+
+Run number: 46
+Run 46
+CPU Usage:
+User Time: 4.97 seconds
+System Time: 0.42 seconds
+Total Time: 0:02.32
+Memory Usage: 412964 KB
+Execution time for run 46: 2335 milliseconds
+Run 46: 7 rows
+
+Run number: 47
+Run 47
+CPU Usage:
+User Time: 4.84 seconds
+System Time: 0.45 seconds
+Total Time: 0:02.32
+Memory Usage: 413016 KB
+Execution time for run 47: 2332 milliseconds
+Run 47: 7 rows
+
+Run number: 48
+Run 48
+CPU Usage:
+User Time: 4.93 seconds
+System Time: 0.45 seconds
+Total Time: 0:02.36
+Memory Usage: 417328 KB
+Execution time for run 48: 2368 milliseconds
+Run 48: 7 rows
+
+Run number: 49
+Run 49
+CPU Usage:
+User Time: 4.84 seconds
+System Time: 0.43 seconds
+Total Time: 0:02.38
+Memory Usage: 423532 KB
+Execution time for run 49: 2388 milliseconds
+Run 49: 7 rows
+
+Run number: 50
+Run 50
+CPU Usage:
+User Time: 5.03 seconds
+System Time: 0.52 seconds
+Total Time: 0:02.55
+Memory Usage: 422496 KB
+Execution time for run 50: 2560 milliseconds
+Run 50: 7 rows
+
+Run number: 51
+Run 51
+CPU Usage:
+User Time: 4.84 seconds
+System Time: 0.42 seconds
+Total Time: 0:02.33
+Memory Usage: 415436 KB
+Execution time for run 51: 2345 milliseconds
+Run 51: 7 rows
+
+Run number: 52
+Run 52
+CPU Usage:
+User Time: 4.90 seconds
+System Time: 0.47 seconds
+Total Time: 0:02.39
+Memory Usage: 414968 KB
+Execution time for run 52: 2398 milliseconds
+Run 52: 7 rows
+
+Run number: 53
+Run 53
+CPU Usage:
+User Time: 4.82 seconds
+System Time: 0.43 seconds
+Total Time: 0:02.33
+Memory Usage: 417776 KB
+Execution time for run 53: 2346 milliseconds
+Run 53: 7 rows
+
+Run number: 54
+Run 54
+CPU Usage:
+User Time: 4.80 seconds
+System Time: 0.43 seconds
+Total Time: 0:02.32
+Memory Usage: 414996 KB
+Execution time for run 54: 2334 milliseconds
+Run 54: 7 rows
+
+Run number: 55
+Run 55
+CPU Usage:
+User Time: 4.95 seconds
+System Time: 0.45 seconds
+Total Time: 0:02.42
+Memory Usage: 416868 KB
+Execution time for run 55: 2435 milliseconds
+Run 55: 7 rows
+
+Run number: 56
+Run 56
+CPU Usage:
+User Time: 4.97 seconds
+System Time: 0.48 seconds
+Total Time: 0:02.34
+Memory Usage: 415740 KB
+Execution time for run 56: 2351 milliseconds
+Run 56: 7 rows
+
+Run number: 57
+Run 57
+CPU Usage:
+User Time: 4.95 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.34
+Memory Usage: 416208 KB
+Execution time for run 57: 2349 milliseconds
+Run 57: 7 rows
+
+Run number: 58
+Run 58
+CPU Usage:
+User Time: 5.08 seconds
+System Time: 0.49 seconds
+Total Time: 0:02.45
+Memory Usage: 419004 KB
+Execution time for run 58: 2464 milliseconds
+Run 58: 7 rows
+
+Run number: 59
+Run 59
+CPU Usage:
+User Time: 4.85 seconds
+System Time: 0.48 seconds
+Total Time: 0:02.34
+Memory Usage: 414256 KB
+Execution time for run 59: 2357 milliseconds
+Run 59: 7 rows
+
+Run number: 60
+Run 60
+CPU Usage:
+User Time: 4.98 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.35
+Memory Usage: 414780 KB
+Execution time for run 60: 2362 milliseconds
+Run 60: 7 rows
+
+Run number: 61
+Run 61
+CPU Usage:
+User Time: 5.01 seconds
+System Time: 0.44 seconds
+Total Time: 0:02.35
+Memory Usage: 414772 KB
+Execution time for run 61: 2359 milliseconds
+Run 61: 7 rows
+
+Run number: 62
+Run 62
+CPU Usage:
+User Time: 4.99 seconds
+System Time: 0.53 seconds
+Total Time: 0:02.43
+Memory Usage: 411676 KB
+Execution time for run 62: 2447 milliseconds
+Run 62: 7 rows
+
+Run number: 63
+Run 63
+CPU Usage:
+User Time: 4.97 seconds
+System Time: 0.45 seconds
+Total Time: 0:02.40
+Memory Usage: 414684 KB
+Execution time for run 63: 2407 milliseconds
+Run 63: 7 rows
+
+Run number: 64
+Run 64
+CPU Usage:
+User Time: 4.54 seconds
+System Time: 0.43 seconds
+Total Time: 0:02.24
+Memory Usage: 414364 KB
+Execution time for run 64: 2250 milliseconds
+Run 64: 7 rows
+
+Run number: 65
+Run 65
+CPU Usage:
+User Time: 4.84 seconds
+System Time: 0.43 seconds
+Total Time: 0:02.28
+Memory Usage: 415780 KB
+Execution time for run 65: 2288 milliseconds
+Run 65: 7 rows
+
+Run number: 66
+Run 66
+CPU Usage:
+User Time: 4.99 seconds
+System Time: 0.44 seconds
+Total Time: 0:02.37
+Memory Usage: 413972 KB
+Execution time for run 66: 2382 milliseconds
+Run 66: 7 rows
+
+Run number: 67
+Run 67
+CPU Usage:
+User Time: 5.12 seconds
+System Time: 0.41 seconds
+Total Time: 0:02.45
+Memory Usage: 414100 KB
+Execution time for run 67: 2466 milliseconds
+Run 67: 7 rows
+
+Run number: 68
+Run 68
+CPU Usage:
+User Time: 4.98 seconds
+System Time: 0.48 seconds
+Total Time: 0:02.34
+Memory Usage: 414248 KB
+Execution time for run 68: 2347 milliseconds
+Run 68: 7 rows
+
+Run number: 69
+Run 69
+CPU Usage:
+User Time: 4.95 seconds
+System Time: 0.42 seconds
+Total Time: 0:02.37
+Memory Usage: 417272 KB
+Execution time for run 69: 2379 milliseconds
+Run 69: 7 rows
+
+Run number: 70
+Run 70
+CPU Usage:
+User Time: 4.93 seconds
+System Time: 0.43 seconds
+Total Time: 0:02.34
+Memory Usage: 414808 KB
+Execution time for run 70: 2347 milliseconds
+Run 70: 7 rows
+
+Run number: 71
+Run 71
+CPU Usage:
+User Time: 4.86 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.37
+Memory Usage: 413920 KB
+Execution time for run 71: 2385 milliseconds
+Run 71: 7 rows
+
+Run number: 72
+Run 72
+CPU Usage:
+User Time: 4.85 seconds
+System Time: 0.47 seconds
+Total Time: 0:02.38
+Memory Usage: 413164 KB
+Execution time for run 72: 2391 milliseconds
+Run 72: 7 rows
+
+Run number: 73
+Run 73
+CPU Usage:
+User Time: 4.99 seconds
+System Time: 0.45 seconds
+Total Time: 0:02.34
+Memory Usage: 416616 KB
+Execution time for run 73: 2350 milliseconds
+Run 73: 7 rows
+
+Run number: 74
+Run 74
+CPU Usage:
+User Time: 4.92 seconds
+System Time: 0.40 seconds
+Total Time: 0:02.34
+Memory Usage: 413532 KB
+Execution time for run 74: 2354 milliseconds
+Run 74: 7 rows
+
+Run number: 75
+Run 75
+CPU Usage:
+User Time: 5.01 seconds
+System Time: 0.43 seconds
+Total Time: 0:02.36
+Memory Usage: 413688 KB
+Execution time for run 75: 2372 milliseconds
+Run 75: 7 rows
+
+Run number: 76
+Run 76
+CPU Usage:
+User Time: 5.02 seconds
+System Time: 0.44 seconds
+Total Time: 0:02.34
+Memory Usage: 411228 KB
+Execution time for run 76: 2352 milliseconds
+Run 76: 7 rows
+
+Run number: 77
+Run 77
+CPU Usage:
+User Time: 4.94 seconds
+System Time: 0.52 seconds
+Total Time: 0:02.37
+Memory Usage: 417404 KB
+Execution time for run 77: 2380 milliseconds
+Run 77: 7 rows
+
+Run number: 78
+Run 78
+CPU Usage:
+User Time: 4.92 seconds
+System Time: 0.45 seconds
+Total Time: 0:02.35
+Memory Usage: 416500 KB
+Execution time for run 78: 2366 milliseconds
+Run 78: 7 rows
+
+Run number: 79
+Run 79
+CPU Usage:
+User Time: 5.15 seconds
+System Time: 0.44 seconds
+Total Time: 0:02.46
+Memory Usage: 415124 KB
+Execution time for run 79: 2475 milliseconds
+Run 79: 7 rows
+
+Run number: 80
+Run 80
+CPU Usage:
+User Time: 4.99 seconds
+System Time: 0.47 seconds
+Total Time: 0:02.42
+Memory Usage: 413584 KB
+Execution time for run 80: 2432 milliseconds
+Run 80: 7 rows
+
+Run number: 81
+Run 81
+CPU Usage:
+User Time: 4.98 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.40
+Memory Usage: 415088 KB
+Execution time for run 81: 2409 milliseconds
+Run 81: 7 rows
+
+Run number: 82
+Run 82
+CPU Usage:
+User Time: 4.90 seconds
+System Time: 0.45 seconds
+Total Time: 0:02.33
+Memory Usage: 409672 KB
+Execution time for run 82: 2338 milliseconds
+Run 82: 7 rows
+
+Run number: 83
+Run 83
+CPU Usage:
+User Time: 5.03 seconds
+System Time: 0.47 seconds
+Total Time: 0:02.42
+Memory Usage: 415360 KB
+Execution time for run 83: 2433 milliseconds
+Run 83: 7 rows
+
+Run number: 84
+Run 84
+CPU Usage:
+User Time: 5.04 seconds
+System Time: 0.44 seconds
+Total Time: 0:02.35
+Memory Usage: 415448 KB
+Execution time for run 84: 2364 milliseconds
+Run 84: 7 rows
+
+Run number: 85
+Run 85
+CPU Usage:
+User Time: 5.10 seconds
+System Time: 0.48 seconds
+Total Time: 0:02.44
+Memory Usage: 413944 KB
+Execution time for run 85: 2450 milliseconds
+Run 85: 7 rows
+
+Run number: 86
+Run 86
+CPU Usage:
+User Time: 5.14 seconds
+System Time: 0.48 seconds
+Total Time: 0:02.49
+Memory Usage: 421680 KB
+Execution time for run 86: 2501 milliseconds
+Run 86: 7 rows
+
+Run number: 87
+Run 87
+CPU Usage:
+User Time: 5.13 seconds
+System Time: 0.44 seconds
+Total Time: 0:02.41
+Memory Usage: 424728 KB
+Execution time for run 87: 2419 milliseconds
+Run 87: 7 rows
+
+Run number: 88
+Run 88
+CPU Usage:
+User Time: 5.10 seconds
+System Time: 0.40 seconds
+Total Time: 0:02.45
+Memory Usage: 415704 KB
+Execution time for run 88: 2459 milliseconds
+Run 88: 7 rows
+
+Run number: 89
+Run 89
+CPU Usage:
+User Time: 5.01 seconds
+System Time: 0.47 seconds
+Total Time: 0:02.42
+Memory Usage: 421672 KB
+Execution time for run 89: 2430 milliseconds
+Run 89: 7 rows
+
+Run number: 90
+Run 90
+CPU Usage:
+User Time: 4.79 seconds
+System Time: 0.48 seconds
+Total Time: 0:02.33
+Memory Usage: 413588 KB
+Execution time for run 90: 2347 milliseconds
+Run 90: 7 rows
+
+Run number: 91
+Run 91
+CPU Usage:
+User Time: 4.82 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.32
+Memory Usage: 414448 KB
+Execution time for run 91: 2327 milliseconds
+Run 91: 7 rows
+
+Run number: 92
+Run 92
+CPU Usage:
+User Time: 4.90 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.39
+Memory Usage: 413716 KB
+Execution time for run 92: 2405 milliseconds
+Run 92: 7 rows
+
+Run number: 93
+Run 93
+CPU Usage:
+User Time: 5.06 seconds
+System Time: 0.48 seconds
+Total Time: 0:02.34
+Memory Usage: 413336 KB
+Execution time for run 93: 2353 milliseconds
+Run 93: 7 rows
+
+Run number: 94
+Run 94
+CPU Usage:
+User Time: 4.81 seconds
+System Time: 0.44 seconds
+Total Time: 0:02.31
+Memory Usage: 414820 KB
+Execution time for run 94: 2322 milliseconds
+Run 94: 7 rows
+
+Run number: 95
+Run 95
+CPU Usage:
+User Time: 4.92 seconds
+System Time: 0.50 seconds
+Total Time: 0:02.35
+Memory Usage: 416116 KB
+Execution time for run 95: 2361 milliseconds
+Run 95: 7 rows
+
+Run number: 96
+Run 96
+CPU Usage:
+User Time: 5.00 seconds
+System Time: 0.45 seconds
+Total Time: 0:02.42
+Memory Usage: 415472 KB
+Execution time for run 96: 2427 milliseconds
+Run 96: 7 rows
+
+Run number: 97
+Run 97
+CPU Usage:
+User Time: 4.90 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.34
+Memory Usage: 415376 KB
+Execution time for run 97: 2355 milliseconds
+Run 97: 7 rows
+
+Run number: 98
+Run 98
+CPU Usage:
+User Time: 4.91 seconds
+System Time: 0.47 seconds
+Total Time: 0:02.36
+Memory Usage: 414780 KB
+Execution time for run 98: 2373 milliseconds
+Run 98: 7 rows
+
+Run number: 99
+Run 99
+CPU Usage:
+User Time: 4.87 seconds
+System Time: 0.41 seconds
+Total Time: 0:02.29
+Memory Usage: 414068 KB
+Execution time for run 99: 2304 milliseconds
+Run 99: 7 rows
+
+Run number: 100
+Run 100
+CPU Usage:
+User Time: 4.96 seconds
+System Time: 0.46 seconds
+Total Time: 0:02.32
+Memory Usage: 416276 KB
+Execution time for run 100: 2329 milliseconds
+Run 100: 7 rows
+
+Average execution time: 2396 milliseconds

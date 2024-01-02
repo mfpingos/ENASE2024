@@ -1,0 +1,203 @@
+Run number: 1
+Execution time for run 1: 334 milliseconds
+Run number: 2
+Execution time for run 2: 353 milliseconds
+Run number: 3
+Execution time for run 3: 347 milliseconds
+Run number: 4
+Execution time for run 4: 343 milliseconds
+Run number: 5
+Execution time for run 5: 338 milliseconds
+Run number: 6
+Execution time for run 6: 349 milliseconds
+Run number: 7
+Execution time for run 7: 330 milliseconds
+Run number: 8
+Execution time for run 8: 339 milliseconds
+Run number: 9
+Execution time for run 9: 371 milliseconds
+Run number: 10
+Execution time for run 10: 336 milliseconds
+Run number: 11
+Execution time for run 11: 391 milliseconds
+Run number: 12
+Execution time for run 12: 363 milliseconds
+Run number: 13
+Execution time for run 13: 371 milliseconds
+Run number: 14
+Execution time for run 14: 345 milliseconds
+Run number: 15
+Execution time for run 15: 330 milliseconds
+Run number: 16
+Execution time for run 16: 364 milliseconds
+Run number: 17
+Execution time for run 17: 339 milliseconds
+Run number: 18
+Execution time for run 18: 378 milliseconds
+Run number: 19
+Execution time for run 19: 330 milliseconds
+Run number: 20
+Execution time for run 20: 339 milliseconds
+Run number: 21
+Execution time for run 21: 351 milliseconds
+Run number: 22
+Execution time for run 22: 381 milliseconds
+Run number: 23
+Execution time for run 23: 348 milliseconds
+Run number: 24
+Execution time for run 24: 329 milliseconds
+Run number: 25
+Execution time for run 25: 327 milliseconds
+Run number: 26
+Execution time for run 26: 326 milliseconds
+Run number: 27
+Execution time for run 27: 363 milliseconds
+Run number: 28
+Execution time for run 28: 370 milliseconds
+Run number: 29
+Execution time for run 29: 370 milliseconds
+Run number: 30
+Execution time for run 30: 345 milliseconds
+Run number: 31
+Execution time for run 31: 332 milliseconds
+Run number: 32
+Execution time for run 32: 368 milliseconds
+Run number: 33
+Execution time for run 33: 345 milliseconds
+Run number: 34
+Execution time for run 34: 327 milliseconds
+Run number: 35
+Execution time for run 35: 339 milliseconds
+Run number: 36
+Execution time for run 36: 331 milliseconds
+Run number: 37
+Execution time for run 37: 330 milliseconds
+Run number: 38
+Execution time for run 38: 336 milliseconds
+Run number: 39
+Execution time for run 39: 325 milliseconds
+Run number: 40
+Execution time for run 40: 368 milliseconds
+Run number: 41
+Execution time for run 41: 376 milliseconds
+Run number: 42
+Execution time for run 42: 357 milliseconds
+Run number: 43
+Execution time for run 43: 325 milliseconds
+Run number: 44
+Execution time for run 44: 369 milliseconds
+Run number: 45
+Execution time for run 45: 364 milliseconds
+Run number: 46
+Execution time for run 46: 368 milliseconds
+Run number: 47
+Execution time for run 47: 344 milliseconds
+Run number: 48
+Execution time for run 48: 367 milliseconds
+Run number: 49
+Execution time for run 49: 329 milliseconds
+Run number: 50
+Execution time for run 50: 326 milliseconds
+Run number: 51
+Execution time for run 51: 341 milliseconds
+Run number: 52
+Execution time for run 52: 322 milliseconds
+Run number: 53
+Execution time for run 53: 333 milliseconds
+Run number: 54
+Execution time for run 54: 318 milliseconds
+Run number: 55
+Execution time for run 55: 316 milliseconds
+Run number: 56
+Execution time for run 56: 358 milliseconds
+Run number: 57
+Execution time for run 57: 351 milliseconds
+Run number: 58
+Execution time for run 58: 332 milliseconds
+Run number: 59
+Execution time for run 59: 319 milliseconds
+Run number: 60
+Execution time for run 60: 333 milliseconds
+Run number: 61
+Execution time for run 61: 344 milliseconds
+Run number: 62
+Execution time for run 62: 341 milliseconds
+Run number: 63
+Execution time for run 63: 348 milliseconds
+Run number: 64
+Execution time for run 64: 342 milliseconds
+Run number: 65
+Execution time for run 65: 345 milliseconds
+Run number: 66
+Execution time for run 66: 373 milliseconds
+Run number: 67
+Execution time for run 67: 366 milliseconds
+Run number: 68
+Execution time for run 68: 374 milliseconds
+Run number: 69
+Execution time for run 69: 349 milliseconds
+Run number: 70
+Execution time for run 70: 374 milliseconds
+Run number: 71
+Execution time for run 71: 329 milliseconds
+Run number: 72
+Execution time for run 72: 339 milliseconds
+Run number: 73
+Execution time for run 73: 333 milliseconds
+Run number: 74
+Execution time for run 74: 369 milliseconds
+Run number: 75
+Execution time for run 75: 343 milliseconds
+Run number: 76
+Execution time for run 76: 328 milliseconds
+Run number: 77
+Execution time for run 77: 335 milliseconds
+Run number: 78
+Execution time for run 78: 347 milliseconds
+Run number: 79
+Execution time for run 79: 329 milliseconds
+Run number: 80
+Execution time for run 80: 343 milliseconds
+Run number: 81
+Execution time for run 81: 329 milliseconds
+Run number: 82
+Execution time for run 82: 333 milliseconds
+Run number: 83
+Execution time for run 83: 336 milliseconds
+Run number: 84
+Execution time for run 84: 368 milliseconds
+Run number: 85
+Execution time for run 85: 329 milliseconds
+Run number: 86
+Execution time for run 86: 361 milliseconds
+Run number: 87
+Execution time for run 87: 340 milliseconds
+Run number: 88
+Execution time for run 88: 353 milliseconds
+Run number: 89
+Execution time for run 89: 323 milliseconds
+Run number: 90
+Execution time for run 90: 324 milliseconds
+Run number: 91
+Execution time for run 91: 321 milliseconds
+Run number: 92
+Execution time for run 92: 342 milliseconds
+Run number: 93
+Execution time for run 93: 333 milliseconds
+Run number: 94
+Execution time for run 94: 374 milliseconds
+Run number: 95
+Execution time for run 95: 365 milliseconds
+Run number: 96
+Execution time for run 96: 351 milliseconds
+Run number: 97
+Execution time for run 97: 328 milliseconds
+Run number: 98
+Execution time for run 98: 326 milliseconds
+Run number: 99
+Execution time for run 99: 355 milliseconds
+Run number: 100
+Execution time for run 100: 375 milliseconds
+Average execution time: 345.66 milliseconds
+Average CPU usage: 98.44%
+Average memory usage: 12151.44 KB

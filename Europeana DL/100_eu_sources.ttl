@@ -1,0 +1,2369 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix ex: <http://example.org/>.
+
+ex:source1
+  rdf:type ex:Description ;
+  ex:providing_institution "Vincent Ltd" ;
+  ex:theme "Newspapers" ;
+  ex:contributors "Yolanda Chambers, Richard Hill" ;
+  ex:creator "Scott Curtis" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "soon, eight" ;
+  ex:date "1531-06-15" ;
+  ex:title "There could since quality decide." ;
+  ex:provider_collection_name "Graves-Howard" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:identifier "Identifier-1" ;
+  ex:places "West Davidchester, Houstonport" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Bahrain" ;
+  ex:language "es" ;
+  ex:timestamp_created "1531-06-15T00:00:00Z" ;
+  ex:timestamp_updated "1531-09-27T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_1_data" ;
+  .
+
+ex:source2
+  rdf:type ex:Description ;
+  ex:providing_institution "Ellison PLC" ;
+  ex:theme "Photography" ;
+  ex:contributors "Felicia Davis, Marissa Turner" ;
+  ex:creator "Martha Li" ;
+  ex:type_of_object "Image" ;
+  ex:subject "art, so" ;
+  ex:date "1823-09-01" ;
+  ex:title "General institution executive staff show discover land." ;
+  ex:provider_collection_name "Ward-Nelson" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:identifier "Identifier-2" ;
+  ex:places "Patrickfort, East Erikberg" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Mauritius" ;
+  ex:language "de" ;
+  ex:timestamp_created "1823-09-01T00:00:00Z" ;
+  ex:timestamp_updated "1823-12-08T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_2_data" ;
+  .
+
+ex:source3
+  rdf:type ex:Description ;
+  ex:providing_institution "Smith, Li and Guzman" ;
+  ex:theme "Archeology" ;
+  ex:contributors "Robert Fowler, Amanda Dixon" ;
+  ex:creator "Susan Rodriguez" ;
+  ex:type_of_object "Image" ;
+  ex:subject "myself, piece" ;
+  ex:date "1291-08-26" ;
+  ex:title "Theory there better able citizen throw." ;
+  ex:provider_collection_name "Baker, Dougherty and Harris" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:identifier "Identifier-3" ;
+  ex:places "Port Jeffreyshire, West Ryanburgh" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Denmark" ;
+  ex:language "de" ;
+  ex:timestamp_created "1291-08-26T00:00:00Z" ;
+  ex:timestamp_updated "1291-10-09T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_3_data" ;
+  .
+
+ex:source4
+  rdf:type ex:Description ;
+  ex:providing_institution "Lucas-Brown" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Angela Griffin, Kenneth Young" ;
+  ex:creator "Joel Mckinney" ;
+  ex:type_of_object "Video" ;
+  ex:subject "treatment, leg" ;
+  ex:date "1338-03-16" ;
+  ex:title "List save care deal issue one expert." ;
+  ex:provider_collection_name "Ibarra, Moss and Johnson" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:places "South Stuart, Port Tara" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Sao Tome and Principe" ;
+  ex:language "en" ;
+  ex:timestamp_created "1338-03-16T00:00:00Z" ;
+  ex:timestamp_updated "1338-06-05T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_4_data" ;
+  .
+
+ex:source5
+  rdf:type ex:Description ;
+  ex:providing_institution "Rogers-Flores" ;
+  ex:theme "Manuscript" ;
+  ex:contributors "Joshua Hale, Michael Ruiz" ;
+  ex:creator "Nancy Smith" ;
+  ex:type_of_object "Image" ;
+  ex:subject "computer, whatever" ;
+  ex:date "1516-08-07" ;
+  ex:title "Simple water page team doctor." ;
+  ex:provider_collection_name "Johnson and Sons" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-5" ;
+  ex:places "North Markborough, North Karen" ;
+  ex:format "text/plain" ;
+  ex:providing_country "El Salvador" ;
+  ex:language "it" ;
+  ex:timestamp_created "1516-08-07T00:00:00Z" ;
+  ex:timestamp_updated "1516-11-10T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_5_data" ;
+  .
+
+ex:source6
+  rdf:type ex:Description ;
+  ex:providing_institution "Richard-Richard" ;
+  ex:theme "Music" ;
+  ex:contributors "Claudia Carpenter, Erin Garcia" ;
+  ex:creator "Ashley Garcia" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "race, condition" ;
+  ex:date "1782-07-19" ;
+  ex:title "Thank item it eight impact avoid." ;
+  ex:provider_collection_name "Ramirez Group" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:places "Kimborough, North Eric" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Sri Lanka" ;
+  ex:language "es" ;
+  ex:timestamp_created "1782-07-19T00:00:00Z" ;
+  ex:timestamp_updated "1782-10-30T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_6_data" ;
+  .
+
+ex:source7
+  rdf:type ex:Description ;
+  ex:providing_institution "Case-Moran" ;
+  ex:theme "Maps and Geography" ;
+  ex:contributors "Kenneth Cox, Ashley Davidson" ;
+  ex:creator "Laura Hernandez" ;
+  ex:type_of_object "Image" ;
+  ex:subject "friend, available" ;
+  ex:date "1407-07-31" ;
+  ex:title "White event summer." ;
+  ex:provider_collection_name "Torres and Sons" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:identifier "Identifier-7" ;
+  ex:places "Juliefort, Pattonfurt" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Saint Helena" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1407-07-31T00:00:00Z" ;
+  ex:timestamp_updated "1407-10-04T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_7_data" ;
+  .
+
+ex:source8
+  rdf:type ex:Description ;
+  ex:providing_institution "Mclaughlin Inc" ;
+  ex:theme "World War I" ;
+  ex:contributors "Kelly White, Margaret Jefferson" ;
+  ex:creator "Michael Stevens" ;
+  ex:type_of_object "Video" ;
+  ex:subject "require, thus" ;
+  ex:date "1085-03-12" ;
+  ex:title "Bar control a product amount site." ;
+  ex:provider_collection_name "Hicks, Richardson and Williams" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:identifier "Identifier-8" ;
+  ex:places "South Sarahfurt, West Carla" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "United Arab Emirates" ;
+  ex:language "en" ;
+  ex:timestamp_created "1085-03-12T00:00:00Z" ;
+  ex:timestamp_updated "1085-06-26T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_8_data" ;
+  .
+
+ex:source9
+  rdf:type ex:Description ;
+  ex:providing_institution "Roman-Reed" ;
+  ex:theme "Maps and Geography" ;
+  ex:contributors "Rebecca Smith, Krista Carrillo" ;
+  ex:creator "Jerry Sanchez" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "sit, finish" ;
+  ex:date "1347-10-03" ;
+  ex:title "Parent myself road run let but type." ;
+  ex:provider_collection_name "Randolph, Hart and Juarez" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:places "Dominguezland, New Mary" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Burkina Faso" ;
+  ex:language "de" ;
+  ex:timestamp_created "1347-10-03T00:00:00Z" ;
+  ex:timestamp_updated "1347-11-04T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_9_data" ;
+  .
+
+ex:source10
+  rdf:type ex:Description ;
+  ex:providing_institution "Luna-Mosley" ;
+  ex:theme "Migration" ;
+  ex:contributors "Anthony Martinez, Scott Henry" ;
+  ex:creator "Sarah Beltran" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "young, fine" ;
+  ex:date "1717-08-17" ;
+  ex:title "Door right that upon computer." ;
+  ex:provider_collection_name "Meadows PLC" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:identifier "Identifier-10" ;
+  ex:places "West Cindyborough, North Linda" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Chad" ;
+  ex:language "es" ;
+  ex:timestamp_created "1717-08-17T00:00:00Z" ;
+  ex:timestamp_updated "1717-11-09T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_10_data" ;
+  .
+
+ex:source11
+  rdf:type ex:Description ;
+  ex:providing_institution "Jordan-Jones" ;
+  ex:theme "Newspapers" ;
+  ex:contributors "Amy Thompson, Ashley Wagner DDS" ;
+  ex:creator "Brandon Lewis" ;
+  ex:type_of_object "Video" ;
+  ex:subject "fly, fish" ;
+  ex:date "1514-10-29" ;
+  ex:title "Address year remain PM contain." ;
+  ex:provider_collection_name "Navarro-Alvarado" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:identifier "Identifier-11" ;
+  ex:places "Lake Barbarashire, East Cheryl" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Panama" ;
+  ex:language "es" ;
+  ex:timestamp_created "1514-10-29T00:00:00Z" ;
+  ex:timestamp_updated "1514-12-08T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_11_data" ;
+  .
+
+ex:source12
+  rdf:type ex:Description ;
+  ex:providing_institution "Rivera-Parker" ;
+  ex:theme "Art" ;
+  ex:contributors "Jeffrey Johnson, Margaret Stone" ;
+  ex:creator "Lori Stone" ;
+  ex:type_of_object "Text" ;
+  ex:subject "he, writer" ;
+  ex:date "1204-09-22" ;
+  ex:title "Here cup school production plant both." ;
+  ex:provider_collection_name "Acevedo-Lewis" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:identifier "Identifier-12" ;
+  ex:places "New Nicole, South Aaronfort" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Cameroon" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1204-09-22T00:00:00Z" ;
+  ex:timestamp_updated "1204-12-16T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_12_data" ;
+  .
+
+ex:source13
+  rdf:type ex:Description ;
+  ex:providing_institution "Mata-Delgado" ;
+  ex:theme "Photography" ;
+  ex:contributors "Brenda Collins, Shawn Martinez" ;
+  ex:creator "Glen Martin" ;
+  ex:type_of_object "Image" ;
+  ex:subject "TV, read" ;
+  ex:date "1169-05-27" ;
+  ex:title "Else high close card group current people." ;
+  ex:provider_collection_name "Armstrong, Mendoza and Barron" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:identifier "Identifier-13" ;
+  ex:places "Sweeneychester, Santosside" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Uganda" ;
+  ex:language "it" ;
+  ex:timestamp_created "1169-05-27T00:00:00Z" ;
+  ex:timestamp_updated "1169-09-06T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_13_data" ;
+  .
+
+ex:source14
+  rdf:type ex:Description ;
+  ex:providing_institution "Roberts Inc" ;
+  ex:theme "Maps and Geography" ;
+  ex:contributors "Tonya Faulkner, Autumn Rosales" ;
+  ex:creator "Jill Williams" ;
+  ex:type_of_object "Video" ;
+  ex:subject "yourself, process" ;
+  ex:date "1115-09-28" ;
+  ex:title "Score not gas many." ;
+  ex:provider_collection_name "Cole, Price and Price" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:places "Brandonchester, Leeberg" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "New Zealand" ;
+  ex:language "es" ;
+  ex:timestamp_created "1115-09-28T00:00:00Z" ;
+  ex:timestamp_updated "1115-11-27T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_14_data" ;
+  .
+
+ex:source15
+  rdf:type ex:Description ;
+  ex:providing_institution "Ramirez, Valencia and Peters" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Reginald Hernandez, David Thomas" ;
+  ex:creator "Mr. Troy King" ;
+  ex:type_of_object "Image" ;
+  ex:subject "return, in" ;
+  ex:date "1144-12-29" ;
+  ex:title "However include might generation." ;
+  ex:provider_collection_name "Pena, Williams and Lester" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:places "Wyattport, Port Meganside" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "United States Virgin Islands" ;
+  ex:language "es" ;
+  ex:timestamp_created "1144-12-29T00:00:00Z" ;
+  ex:timestamp_updated "1145-02-22T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_15_data" ;
+  .
+
+ex:source16
+  rdf:type ex:Description ;
+  ex:providing_institution "Patterson-Jacobs" ;
+  ex:theme "Photography" ;
+  ex:contributors "Wendy Quinn, Sandra Lawrence" ;
+  ex:creator "Ricky Smith" ;
+  ex:type_of_object "3D" ;
+  ex:subject "success, key" ;
+  ex:date "1719-12-14" ;
+  ex:title "Drug again measure financial how partner." ;
+  ex:provider_collection_name "Walters PLC" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-16" ;
+  ex:places "Lunaview, Thorntonstad" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Kazakhstan" ;
+  ex:language "en" ;
+  ex:timestamp_created "1719-12-14T00:00:00Z" ;
+  ex:timestamp_updated "1719-12-20T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_16_data" ;
+  .
+
+ex:source17
+  rdf:type ex:Description ;
+  ex:providing_institution "Gardner-Potts" ;
+  ex:theme "Art" ;
+  ex:contributors "Emily Williams, Michael Freeman" ;
+  ex:creator "Evan Mays" ;
+  ex:type_of_object "Video" ;
+  ex:subject "what, program" ;
+  ex:date "1426-12-07" ;
+  ex:title "Relationship kitchen control board generation goal and local." ;
+  ex:provider_collection_name "Davis, Higgins and Evans" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:identifier "Identifier-17" ;
+  ex:places "Johnstonport, Jasonland" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Haiti" ;
+  ex:language "en" ;
+  ex:timestamp_created "1426-12-07T00:00:00Z" ;
+  ex:timestamp_updated "1427-03-11T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_17_data" ;
+  .
+
+ex:source18
+  rdf:type ex:Description ;
+  ex:providing_institution "Jones LLC" ;
+  ex:theme "Music" ;
+  ex:contributors "Bryan Horton, Lisa Wang" ;
+  ex:creator "Alexis Delgado" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "value, more" ;
+  ex:date "1546-02-19" ;
+  ex:title "Dream choose usually nothing." ;
+  ex:provider_collection_name "Archer-Mcdowell" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:places "Andersonstad, Port Scott" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Mauritania" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1546-02-19T00:00:00Z" ;
+  ex:timestamp_updated "1546-06-14T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_18_data" ;
+  .
+
+ex:source19
+  rdf:type ex:Description ;
+  ex:providing_institution "Edwards Inc" ;
+  ex:theme "Manuscript" ;
+  ex:contributors "Angela Larson, Chelsea Morales" ;
+  ex:creator "Courtney Harper" ;
+  ex:type_of_object "Text" ;
+  ex:subject "continue, range" ;
+  ex:date "1388-02-13" ;
+  ex:title "Manage establish home book lawyer stop room." ;
+  ex:provider_collection_name "Gonzalez Group" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-19" ;
+  ex:places "East Michaelshire, Janiceland" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Swaziland" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1388-02-13T00:00:00Z" ;
+  ex:timestamp_updated "1388-03-16T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_19_data" ;
+  .
+
+ex:source20
+  rdf:type ex:Description ;
+  ex:providing_institution "Jones Ltd" ;
+  ex:theme "Maps and Geography" ;
+  ex:contributors "Patricia Berry, Joseph Hill" ;
+  ex:creator "Michael Jensen" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "yeah, three" ;
+  ex:date "1478-01-04" ;
+  ex:title "Himself fish defense appear culture a." ;
+  ex:provider_collection_name "Flowers-Roth" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-20" ;
+  ex:places "Hendersonton, Matthewstad" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Saint Lucia" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1478-01-04T00:00:00Z" ;
+  ex:timestamp_updated "1478-03-06T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_20_data" ;
+  .
+
+ex:source21
+  rdf:type ex:Description ;
+  ex:providing_institution "Oconnor LLC" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Walter Thompson, Cassandra Deleon" ;
+  ex:creator "Janice Cook" ;
+  ex:type_of_object "3D" ;
+  ex:subject "white, memory" ;
+  ex:date "1618-05-31" ;
+  ex:title "These Congress movement already." ;
+  ex:provider_collection_name "Coffey PLC" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-21" ;
+  ex:places "North Dianaview, Port Shaneburgh" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Mauritania" ;
+  ex:language "es" ;
+  ex:timestamp_created "1618-05-31T00:00:00Z" ;
+  ex:timestamp_updated "1618-07-23T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_21_data" ;
+  .
+
+ex:source22
+  rdf:type ex:Description ;
+  ex:providing_institution "Lopez-Sparks" ;
+  ex:theme "Photography" ;
+  ex:contributors "Daniel Henderson, Stephanie Hart" ;
+  ex:creator "Brian Cortez" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "win, strategy" ;
+  ex:date "1020-02-11" ;
+  ex:title "Recent provide always difference." ;
+  ex:provider_collection_name "Banks, Berg and Moon" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:identifier "Identifier-22" ;
+  ex:places "South Michelleberg, New Aaronview" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Bosnia and Herzegovina" ;
+  ex:language "en" ;
+  ex:timestamp_created "1020-02-11T00:00:00Z" ;
+  ex:timestamp_updated "1020-03-29T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_22_data" ;
+  .
+
+ex:source23
+  rdf:type ex:Description ;
+  ex:providing_institution "Hale-Burton" ;
+  ex:theme "Maps and Geography" ;
+  ex:contributors "Crystal Stanley, Jennifer Reed" ;
+  ex:creator "Diane Crane" ;
+  ex:type_of_object "Video" ;
+  ex:subject "magazine, like" ;
+  ex:date "1297-07-30" ;
+  ex:title "Section book environmental detail effect whole live." ;
+  ex:provider_collection_name "Page, Brown and Dawson" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:identifier "Identifier-23" ;
+  ex:places "Leeberg, Smithchester" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Australia" ;
+  ex:language "de" ;
+  ex:timestamp_created "1297-07-30T00:00:00Z" ;
+  ex:timestamp_updated "1297-10-04T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_23_data" ;
+  .
+
+ex:source24
+  rdf:type ex:Description ;
+  ex:providing_institution "Rodriguez, Burke and Kelly" ;
+  ex:theme "Industrial Heritage" ;
+  ex:contributors "Morgan Jones, Shane Brown" ;
+  ex:creator "Rhonda Rogers" ;
+  ex:type_of_object "Image" ;
+  ex:subject "amount, draw" ;
+  ex:date "1525-03-27" ;
+  ex:title "Away after strong stuff." ;
+  ex:provider_collection_name "Thomas and Sons" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:places "Dunnville, Billyberg" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Cote d'Ivoire" ;
+  ex:language "es" ;
+  ex:timestamp_created "1525-03-27T00:00:00Z" ;
+  ex:timestamp_updated "1525-07-17T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_24_data" ;
+  .
+
+ex:source25
+  rdf:type ex:Description ;
+  ex:providing_institution "Bennett, Lopez and Durham" ;
+  ex:theme "Migration" ;
+  ex:contributors "Veronica Ray, Joy Gould" ;
+  ex:creator "James Lam" ;
+  ex:type_of_object "Video" ;
+  ex:subject "time, she" ;
+  ex:date "1628-10-17" ;
+  ex:title "Indeed after technology far protect." ;
+  ex:provider_collection_name "Vargas LLC" ;
+  ex:rights "All rights reserved" ;
+  ex:places "Ricehaven, Johnville" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Kyrgyz Republic" ;
+  ex:language "es" ;
+  ex:timestamp_created "1628-10-17T00:00:00Z" ;
+  ex:timestamp_updated "1628-12-19T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_25_data" ;
+  .
+
+ex:source26
+  rdf:type ex:Description ;
+  ex:providing_institution "Brady, Mcgee and Thornton" ;
+  ex:theme "Natural History" ;
+  ex:contributors "Melanie Green, Jacob Adams" ;
+  ex:creator "Adrian Jacobs" ;
+  ex:type_of_object "3D" ;
+  ex:subject "hundred, you" ;
+  ex:date "1541-07-06" ;
+  ex:title "Week rate time life family newspaper full." ;
+  ex:provider_collection_name "Dixon, Burns and Gilmore" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:identifier "Identifier-26" ;
+  ex:places "Jonesview, Port Andrew" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Moldova" ;
+  ex:language "it" ;
+  ex:timestamp_created "1541-07-06T00:00:00Z" ;
+  ex:timestamp_updated "1541-09-16T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_26_data" ;
+  .
+
+ex:source27
+  rdf:type ex:Description ;
+  ex:providing_institution "Bennett-Bridges" ;
+  ex:theme "Newspapers" ;
+  ex:contributors "Michael Harris, Kimberly Chambers" ;
+  ex:creator "Joan Johnson" ;
+  ex:type_of_object "Text" ;
+  ex:subject "budget, oil" ;
+  ex:date "1656-04-12" ;
+  ex:title "Sing write how could discuss better." ;
+  ex:provider_collection_name "Lynn-Heath" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:identifier "Identifier-27" ;
+  ex:places "East Shaunland, Scottside" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Heard Island and McDonald Islands" ;
+  ex:language "en" ;
+  ex:timestamp_created "1656-04-12T00:00:00Z" ;
+  ex:timestamp_updated "1656-05-04T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_27_data" ;
+  .
+
+ex:source28
+  rdf:type ex:Description ;
+  ex:providing_institution "Brock and Sons" ;
+  ex:theme "Art" ;
+  ex:contributors "Jennifer Miles, Amy Shields" ;
+  ex:creator "Joseph Diaz" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "something, energy" ;
+  ex:date "1907-10-08" ;
+  ex:title "Decade he tax center." ;
+  ex:provider_collection_name "Doyle, Lopez and Villarreal" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:places "Hopkinsfort, New Margaret" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Guinea-Bissau" ;
+  ex:language "it" ;
+  ex:timestamp_created "1907-10-08T00:00:00Z" ;
+  ex:timestamp_updated "1907-12-10T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_28_data" ;
+  .
+
+ex:source29
+  rdf:type ex:Description ;
+  ex:providing_institution "Jones, Noble and Carpenter" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Jonathan Jennings, Edward Rivera" ;
+  ex:creator "Kyle Rodriguez" ;
+  ex:type_of_object "Image" ;
+  ex:subject "choose, reality" ;
+  ex:date "1512-03-27" ;
+  ex:title "Event unit tax name." ;
+  ex:provider_collection_name "Anderson LLC" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:identifier "Identifier-29" ;
+  ex:places "Stephaniehaven, Davidstad" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "France" ;
+  ex:language "es" ;
+  ex:timestamp_created "1512-03-27T00:00:00Z" ;
+  ex:timestamp_updated "1512-07-04T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_29_data" ;
+  .
+
+ex:source30
+  rdf:type ex:Description ;
+  ex:providing_institution "Estes-Mcfarland" ;
+  ex:theme "Manuscript" ;
+  ex:contributors "Joshua Wright, Brooke Colon" ;
+  ex:creator "Brett Perez" ;
+  ex:type_of_object "Video" ;
+  ex:subject "strong, mission" ;
+  ex:date "1800-11-05" ;
+  ex:title "Total result newspaper executive sure tree black." ;
+  ex:provider_collection_name "Parker PLC" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:identifier "Identifier-30" ;
+  ex:places "Lake Lindashire, East Carolyntown" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Maldives" ;
+  ex:language "es" ;
+  ex:timestamp_created "1800-11-05T00:00:00Z" ;
+  ex:timestamp_updated "1801-01-03T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_30_data" ;
+  .
+
+ex:source31
+  rdf:type ex:Description ;
+  ex:providing_institution "Collins and Sons" ;
+  ex:theme "World War I" ;
+  ex:contributors "John Dunn, Lisa Best" ;
+  ex:creator "William Bryant" ;
+  ex:type_of_object "Image" ;
+  ex:subject "try, tell" ;
+  ex:date "1525-06-25" ;
+  ex:title "Much pattern success respond remain." ;
+  ex:provider_collection_name "Donovan, Walls and Gonzalez" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:places "South Kennethfort, Reesemouth" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Moldova" ;
+  ex:language "it" ;
+  ex:timestamp_created "1525-06-25T00:00:00Z" ;
+  ex:timestamp_updated "1525-06-29T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_31_data" ;
+  .
+
+ex:source32
+  rdf:type ex:Description ;
+  ex:providing_institution "Mcdonald, Lucas and Schmitt" ;
+  ex:theme "Art" ;
+  ex:contributors "Jose Singh, Mackenzie Figueroa" ;
+  ex:creator "Linda Hunt" ;
+  ex:type_of_object "3D" ;
+  ex:subject "recent, wall" ;
+  ex:date "1106-09-07" ;
+  ex:title "Similar wide eight inside during audience data." ;
+  ex:provider_collection_name "Thomas-Boyd" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:identifier "Identifier-32" ;
+  ex:places "Sanderston, East Katieburgh" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Haiti" ;
+  ex:language "it" ;
+  ex:timestamp_created "1106-09-07T00:00:00Z" ;
+  ex:timestamp_updated "1106-12-23T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_32_data" ;
+  .
+
+ex:source33
+  rdf:type ex:Description ;
+  ex:providing_institution "Gill-Boyd" ;
+  ex:theme "Archeology" ;
+  ex:contributors "Carla Cochran, Travis Brewer" ;
+  ex:creator "Shawn Hawkins" ;
+  ex:type_of_object "Video" ;
+  ex:subject "design, me" ;
+  ex:date "1084-07-24" ;
+  ex:title "Rock image dream day." ;
+  ex:provider_collection_name "Rogers, Davis and Jennings" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:identifier "Identifier-33" ;
+  ex:places "Aguilarfurt, Hunterstad" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Ecuador" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1084-07-24T00:00:00Z" ;
+  ex:timestamp_updated "1084-09-25T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_33_data" ;
+  .
+
+ex:source34
+  rdf:type ex:Description ;
+  ex:providing_institution "Lopez-Houston" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Kimberly Allen, Dr. Jason Meadows" ;
+  ex:creator "Marissa Dalton" ;
+  ex:type_of_object "Video" ;
+  ex:subject "foot, line" ;
+  ex:date "1448-06-10" ;
+  ex:title "Role score blue west hold include about." ;
+  ex:provider_collection_name "Shaw-Reeves" ;
+  ex:rights "All rights reserved" ;
+  ex:places "Hickmanport, Lake Trevorfort" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "United Kingdom" ;
+  ex:language "en" ;
+  ex:timestamp_created "1448-06-10T00:00:00Z" ;
+  ex:timestamp_updated "1448-06-24T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_34_data" ;
+  .
+
+ex:source35
+  rdf:type ex:Description ;
+  ex:providing_institution "Hawkins, Rose and Parker" ;
+  ex:theme "Migration" ;
+  ex:contributors "Kelly Haynes, Vincent Rivas" ;
+  ex:creator "Timothy Kane" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "I, seek" ;
+  ex:date "1347-12-22" ;
+  ex:title "Relate not expert." ;
+  ex:provider_collection_name "Ruiz, Johnson and Graham" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-35" ;
+  ex:places "Amandaside, West Angelaton" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Yemen" ;
+  ex:language "de" ;
+  ex:timestamp_created "1347-12-22T00:00:00Z" ;
+  ex:timestamp_updated "1347-12-27T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_35_data" ;
+  .
+
+ex:source36
+  rdf:type ex:Description ;
+  ex:providing_institution "Mckenzie-Thompson" ;
+  ex:theme "Maps and Geography" ;
+  ex:contributors "Jack Harris, Mark Cervantes" ;
+  ex:creator "Janet Snow" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "develop, politics" ;
+  ex:date "1912-06-30" ;
+  ex:title "Bank price one scientist analysis news." ;
+  ex:provider_collection_name "Hart, Jennings and Cruz" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:places "Maryside, Weberberg" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Lebanon" ;
+  ex:language "en" ;
+  ex:timestamp_created "1912-06-30T00:00:00Z" ;
+  ex:timestamp_updated "1912-09-18T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_36_data" ;
+  .
+
+ex:source37
+  rdf:type ex:Description ;
+  ex:providing_institution "Levy PLC" ;
+  ex:theme "Sport" ;
+  ex:contributors "Mary Gomez, Thomas Garner" ;
+  ex:creator "Kathy Jackson" ;
+  ex:type_of_object "Image" ;
+  ex:subject "easy, sense" ;
+  ex:date "1461-03-26" ;
+  ex:title "Answer community might no base shoulder process." ;
+  ex:provider_collection_name "Morris, Smith and Dyer" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:identifier "Identifier-37" ;
+  ex:places "Tarastad, New Eric" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Slovakia (Slovak Republic)" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1461-03-26T00:00:00Z" ;
+  ex:timestamp_updated "1461-07-17T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_37_data" ;
+  .
+
+ex:source38
+  rdf:type ex:Description ;
+  ex:providing_institution "Johnson-Snyder" ;
+  ex:theme "Migration" ;
+  ex:contributors "Kenneth Collins, Robert Contreras" ;
+  ex:creator "Andrew Murphy" ;
+  ex:type_of_object "Text" ;
+  ex:subject "relationship, big" ;
+  ex:date "1263-04-01" ;
+  ex:title "Character trade decision project sister sister." ;
+  ex:provider_collection_name "Brown and Sons" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:identifier "Identifier-38" ;
+  ex:places "New Benjamin, Danielleburgh" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Congo" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1263-04-01T00:00:00Z" ;
+  ex:timestamp_updated "1263-07-13T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_38_data" ;
+  .
+
+ex:source39
+  rdf:type ex:Description ;
+  ex:providing_institution "Johnson Ltd" ;
+  ex:theme "Sport" ;
+  ex:contributors "Donald Lopez, Christine Tran" ;
+  ex:creator "Linda Johnson" ;
+  ex:type_of_object "3D" ;
+  ex:subject "decide, now" ;
+  ex:date "1712-06-26" ;
+  ex:title "Career place language forget." ;
+  ex:provider_collection_name "Cross, Hansen and Price" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:identifier "Identifier-39" ;
+  ex:places "West Bailey, Lake Staciemouth" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Lithuania" ;
+  ex:language "es" ;
+  ex:timestamp_created "1712-06-26T00:00:00Z" ;
+  ex:timestamp_updated "1712-10-20T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_39_data" ;
+  .
+
+ex:source40
+  rdf:type ex:Description ;
+  ex:providing_institution "Sanchez, Andrade and Black" ;
+  ex:theme "Archeology" ;
+  ex:contributors "Lori Miles, Crystal Reid" ;
+  ex:creator "Daniel Montgomery" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "manage, blood" ;
+  ex:date "1385-04-06" ;
+  ex:title "Decide factor case top." ;
+  ex:provider_collection_name "Obrien, Thompson and Lyons" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-40" ;
+  ex:places "South Rubenville, Jessicaport" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Nigeria" ;
+  ex:language "es" ;
+  ex:timestamp_created "1385-04-06T00:00:00Z" ;
+  ex:timestamp_updated "1385-08-03T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_40_data" ;
+  .
+
+ex:source41
+  rdf:type ex:Description ;
+  ex:providing_institution "Jones-Carr" ;
+  ex:theme "Music" ;
+  ex:contributors "David Taylor, Yolanda David" ;
+  ex:creator "Daniel Meyer" ;
+  ex:type_of_object "Text" ;
+  ex:subject "decision, near" ;
+  ex:date "1286-09-25" ;
+  ex:title "Ten order possible simply." ;
+  ex:provider_collection_name "Wise Ltd" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:identifier "Identifier-41" ;
+  ex:places "North Amandaville, Terryton" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Bouvet Island (Bouvetoya)" ;
+  ex:language "it" ;
+  ex:timestamp_created "1286-09-25T00:00:00Z" ;
+  ex:timestamp_updated "1286-10-07T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_41_data" ;
+  .
+
+ex:source42
+  rdf:type ex:Description ;
+  ex:providing_institution "Miller-Price" ;
+  ex:theme "Sport" ;
+  ex:contributors "Angela Thompson, Olivia Henderson" ;
+  ex:creator "Lisa Ayala" ;
+  ex:type_of_object "3D" ;
+  ex:subject "face, employee" ;
+  ex:date "1840-04-21" ;
+  ex:title "Seek according above." ;
+  ex:provider_collection_name "Matthews-Carson" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:places "Michaelland, North Jonathan" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Romania" ;
+  ex:language "es" ;
+  ex:timestamp_created "1840-04-21T00:00:00Z" ;
+  ex:timestamp_updated "1840-08-02T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_42_data" ;
+  .
+
+ex:source43
+  rdf:type ex:Description ;
+  ex:providing_institution "Buchanan PLC" ;
+  ex:theme "Industrial Heritage" ;
+  ex:contributors "Donna Reid, Blake Monroe" ;
+  ex:creator "Stephanie Brooks" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "set, action" ;
+  ex:date "1708-07-29" ;
+  ex:title "After occur help us series business arm claim." ;
+  ex:provider_collection_name "Jackson Ltd" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-43" ;
+  ex:places "Sotoside, New Chris" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Kyrgyz Republic" ;
+  ex:language "it" ;
+  ex:timestamp_created "1708-07-29T00:00:00Z" ;
+  ex:timestamp_updated "1708-08-16T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_43_data" ;
+  .
+
+ex:source44
+  rdf:type ex:Description ;
+  ex:providing_institution "Glover-Fox" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Jonathan Hanson, Hayley Jensen" ;
+  ex:creator "Kari Berry" ;
+  ex:type_of_object "Image" ;
+  ex:subject "example, woman" ;
+  ex:date "1254-04-10" ;
+  ex:title "Difference indeed need catch." ;
+  ex:provider_collection_name "Jacobs Ltd" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:identifier "Identifier-44" ;
+  ex:places "Mathewsstad, Angelaview" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Estonia" ;
+  ex:language "es" ;
+  ex:timestamp_created "1254-04-10T00:00:00Z" ;
+  ex:timestamp_updated "1254-07-21T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_44_data" ;
+  .
+
+ex:source45
+  rdf:type ex:Description ;
+  ex:providing_institution "Smith-Matthews" ;
+  ex:theme "Maps and Geography" ;
+  ex:contributors "David Zamora, Thomas Nichols" ;
+  ex:creator "Anthony Rush" ;
+  ex:type_of_object "Text" ;
+  ex:subject "strategy, media" ;
+  ex:date "1303-06-01" ;
+  ex:title "Program medical clearly late clearly." ;
+  ex:provider_collection_name "Ramos Group" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:places "Lake Cynthia, Micheleburgh" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Christmas Island" ;
+  ex:language "en" ;
+  ex:timestamp_created "1303-06-01T00:00:00Z" ;
+  ex:timestamp_updated "1303-06-22T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_45_data" ;
+  .
+
+ex:source46
+  rdf:type ex:Description ;
+  ex:providing_institution "Flowers, Meyer and Kidd" ;
+  ex:theme "Archeology" ;
+  ex:contributors "Isaac Williams, Tonya Gray" ;
+  ex:creator "Thomas Osborne" ;
+  ex:type_of_object "Image" ;
+  ex:subject "western, car" ;
+  ex:date "1835-04-18" ;
+  ex:title "Should price experience relationship unit amount relationship." ;
+  ex:provider_collection_name "Johnson, Smith and Robinson" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:identifier "Identifier-46" ;
+  ex:places "Johnnytown, West John" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Saint Pierre and Miquelon" ;
+  ex:language "en" ;
+  ex:timestamp_created "1835-04-18T00:00:00Z" ;
+  ex:timestamp_updated "1835-06-24T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_46_data" ;
+  .
+
+ex:source47
+  rdf:type ex:Description ;
+  ex:providing_institution "Mcgrath-Cannon" ;
+  ex:theme "Newspapers" ;
+  ex:contributors "Stephanie Morales, Jeffery Charles" ;
+  ex:creator "Rachael Kim" ;
+  ex:type_of_object "Text" ;
+  ex:subject "pressure, reach" ;
+  ex:date "1737-04-18" ;
+  ex:title "Policy themselves hundred marriage none president high." ;
+  ex:provider_collection_name "Flores-Smith" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:identifier "Identifier-47" ;
+  ex:places "Hensonchester, Sandovalmouth" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Uruguay" ;
+  ex:language "es" ;
+  ex:timestamp_created "1737-04-18T00:00:00Z" ;
+  ex:timestamp_updated "1737-04-30T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_47_data" ;
+  .
+
+ex:source48
+  rdf:type ex:Description ;
+  ex:providing_institution "Herrera, Alvarez and Dougherty" ;
+  ex:theme "Maps and Geography" ;
+  ex:contributors "Kyle Phillips, William Martinez" ;
+  ex:creator "Jeffrey Lee" ;
+  ex:type_of_object "3D" ;
+  ex:subject "mean, tell" ;
+  ex:date "1795-10-21" ;
+  ex:title "Wife on rich." ;
+  ex:provider_collection_name "Stewart-Gomez" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:places "South Katrinashire, Chavezhaven" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Botswana" ;
+  ex:language "it" ;
+  ex:timestamp_created "1795-10-21T00:00:00Z" ;
+  ex:timestamp_updated "1795-12-07T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_48_data" ;
+  .
+
+ex:source49
+  rdf:type ex:Description ;
+  ex:providing_institution "Moreno Group" ;
+  ex:theme "Migration" ;
+  ex:contributors "Troy Johnson, Katherine Powell" ;
+  ex:creator "Chelsea Ellis" ;
+  ex:type_of_object "3D" ;
+  ex:subject "adult, west" ;
+  ex:date "1748-03-13" ;
+  ex:title "Source nature wrong building decision card director." ;
+  ex:provider_collection_name "Ballard-Smith" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:identifier "Identifier-49" ;
+  ex:places "Lorimouth, New Tammyborough" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Guatemala" ;
+  ex:language "en" ;
+  ex:timestamp_created "1748-03-13T00:00:00Z" ;
+  ex:timestamp_updated "1748-06-25T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_49_data" ;
+  .
+
+ex:source50
+  rdf:type ex:Description ;
+  ex:providing_institution "Lang, Powell and Mcintosh" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Jessica Taylor, Jasmine Cardenas" ;
+  ex:creator "Anthony Greer" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "possible, north" ;
+  ex:date "1544-06-22" ;
+  ex:title "Cause cause product." ;
+  ex:provider_collection_name "Gonzalez Group" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:places "Karenberg, Bethchester" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Bhutan" ;
+  ex:language "en" ;
+  ex:timestamp_created "1544-06-22T00:00:00Z" ;
+  ex:timestamp_updated "1544-08-14T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_50_data" ;
+  .
+
+ex:source51
+  rdf:type ex:Description ;
+  ex:providing_institution "Carter LLC" ;
+  ex:theme "Archeology" ;
+  ex:contributors "Nicole Adams, Stephanie Turner" ;
+  ex:creator "Miss Cathy Stewart MD" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "air, suddenly" ;
+  ex:date "1396-10-31" ;
+  ex:title "Her author break foot carry." ;
+  ex:provider_collection_name "Higgins-Mercado" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-51" ;
+  ex:places "Perryburgh, Alanburgh" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Bosnia and Herzegovina" ;
+  ex:language "it" ;
+  ex:timestamp_created "1396-10-31T00:00:00Z" ;
+  ex:timestamp_updated "1397-02-07T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_51_data" ;
+  .
+
+ex:source52
+  rdf:type ex:Description ;
+  ex:providing_institution "Kennedy and Sons" ;
+  ex:theme "Fashion" ;
+  ex:contributors "William Wheeler, Natalie Parks" ;
+  ex:creator "Mr. Joseph Cole" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "method, present" ;
+  ex:date "1756-12-03" ;
+  ex:title "Performance agreement brother training job prove." ;
+  ex:provider_collection_name "Parker-Spence" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:identifier "Identifier-52" ;
+  ex:places "Woodville, Collinsland" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Bahrain" ;
+  ex:language "it" ;
+  ex:timestamp_created "1756-12-03T00:00:00Z" ;
+  ex:timestamp_updated "1757-01-09T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_52_data" ;
+  .
+
+ex:source53
+  rdf:type ex:Description ;
+  ex:providing_institution "Johnson-Ramsey" ;
+  ex:theme "Art" ;
+  ex:contributors "Lawrence Jennings, Tiffany Alvarez" ;
+  ex:creator "Aaron Barnett" ;
+  ex:type_of_object "Video" ;
+  ex:subject "never, out" ;
+  ex:date "1625-09-22" ;
+  ex:title "Baby here page half charge." ;
+  ex:provider_collection_name "Martinez, King and Sanders" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:identifier "Identifier-53" ;
+  ex:places "Donaldville, Wongport" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Norway" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1625-09-22T00:00:00Z" ;
+  ex:timestamp_updated "1625-10-06T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_53_data" ;
+  .
+
+ex:source54
+  rdf:type ex:Description ;
+  ex:providing_institution "Williamson, Mccoy and Williams" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Marc Jones, Kendra Mitchell" ;
+  ex:creator "Jason Miller" ;
+  ex:type_of_object "Image" ;
+  ex:subject "coach, board" ;
+  ex:date "1324-06-14" ;
+  ex:title "East listen our." ;
+  ex:provider_collection_name "Holloway PLC" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:identifier "Identifier-54" ;
+  ex:places "Nicolefurt, North Aaronborough" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Saint Helena" ;
+  ex:language "de" ;
+  ex:timestamp_created "1324-06-14T00:00:00Z" ;
+  ex:timestamp_updated "1324-07-29T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_54_data" ;
+  .
+
+ex:source55
+  rdf:type ex:Description ;
+  ex:providing_institution "Hansen and Sons" ;
+  ex:theme "World War I" ;
+  ex:contributors "Lisa Flores, Deborah Cross" ;
+  ex:creator "Hailey Mitchell" ;
+  ex:type_of_object "3D" ;
+  ex:subject "size, road" ;
+  ex:date "1545-03-18" ;
+  ex:title "Only green beyond family." ;
+  ex:provider_collection_name "Freeman-House" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:places "Richardsontown, Clarkberg" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Jamaica" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1545-03-18T00:00:00Z" ;
+  ex:timestamp_updated "1545-03-25T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_55_data" ;
+  .
+
+ex:source56
+  rdf:type ex:Description ;
+  ex:providing_institution "Estes, Gardner and Cardenas" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Mrs. Norma Clark, Margaret Schneider" ;
+  ex:creator "Margaret Johnson" ;
+  ex:type_of_object "Image" ;
+  ex:subject "doctor, know" ;
+  ex:date "1855-12-27" ;
+  ex:title "Hair mind material remain item adult during." ;
+  ex:provider_collection_name "Reed-Copeland" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:places "Port Davidhaven, Danafurt" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Qatar" ;
+  ex:language "en" ;
+  ex:timestamp_created "1855-12-27T00:00:00Z" ;
+  ex:timestamp_updated "1856-01-25T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_56_data" ;
+  .
+
+ex:source57
+  rdf:type ex:Description ;
+  ex:providing_institution "Perez Inc" ;
+  ex:theme "Sport" ;
+  ex:contributors "Sarah Morgan, Shawna Hancock" ;
+  ex:creator "Amy Collins" ;
+  ex:type_of_object "Image" ;
+  ex:subject "whatever, quickly" ;
+  ex:date "1032-01-20" ;
+  ex:title "Never certainly purpose section." ;
+  ex:provider_collection_name "Garrett and Sons" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:identifier "Identifier-57" ;
+  ex:places "North Corey, North Kathryn" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Mongolia" ;
+  ex:language "de" ;
+  ex:timestamp_created "1032-01-20T00:00:00Z" ;
+  ex:timestamp_updated "1032-05-10T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_57_data" ;
+  .
+
+ex:source58
+  rdf:type ex:Description ;
+  ex:providing_institution "Hansen, Bruce and Garcia" ;
+  ex:theme "Archeology" ;
+  ex:contributors "Scott Bruce, Elizabeth Williams" ;
+  ex:creator "Tim Andrade" ;
+  ex:type_of_object "3D" ;
+  ex:subject "than, road" ;
+  ex:date "1309-05-01" ;
+  ex:title "Its whom nature pressure now cold any it." ;
+  ex:provider_collection_name "Franco-Edwards" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:identifier "Identifier-58" ;
+  ex:places "South Nicole, Christopherfort" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Argentina" ;
+  ex:language "de" ;
+  ex:timestamp_created "1309-05-01T00:00:00Z" ;
+  ex:timestamp_updated "1309-05-31T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_58_data" ;
+  .
+
+ex:source59
+  rdf:type ex:Description ;
+  ex:providing_institution "Lopez PLC" ;
+  ex:theme "Manuscript" ;
+  ex:contributors "Jimmy Kennedy, Angela Reynolds" ;
+  ex:creator "Robert Gonzalez" ;
+  ex:type_of_object "Video" ;
+  ex:subject "bit, finally" ;
+  ex:date "1541-06-04" ;
+  ex:title "Person about land media rest." ;
+  ex:provider_collection_name "Nielsen Inc" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:places "Morenoborough, North Andrew" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Guyana" ;
+  ex:language "it" ;
+  ex:timestamp_created "1541-06-04T00:00:00Z" ;
+  ex:timestamp_updated "1541-09-30T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_59_data" ;
+  .
+
+ex:source60
+  rdf:type ex:Description ;
+  ex:providing_institution "Hudson and Sons" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Stephen Stewart, Linda Davis" ;
+  ex:creator "Donna Warren" ;
+  ex:type_of_object "Video" ;
+  ex:subject "no, find" ;
+  ex:date "1836-03-14" ;
+  ex:title "Line hot report current strong within." ;
+  ex:provider_collection_name "Thompson and Sons" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-60" ;
+  ex:places "East Lauraville, North Gabrielburgh" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Togo" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1836-03-14T00:00:00Z" ;
+  ex:timestamp_updated "1836-06-11T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_60_data" ;
+  .
+
+ex:source61
+  rdf:type ex:Description ;
+  ex:providing_institution "Ross PLC" ;
+  ex:theme "Photography" ;
+  ex:contributors "Matthew Fisher, Eric Robertson" ;
+  ex:creator "Pamela Coleman" ;
+  ex:type_of_object "Text" ;
+  ex:subject "suddenly, TV" ;
+  ex:date "1964-10-11" ;
+  ex:title "Though expect good describe hope other lot." ;
+  ex:provider_collection_name "Wilson Ltd" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:places "Lake Eugene, Brianfurt" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Faroe Islands" ;
+  ex:language "it" ;
+  ex:timestamp_created "1964-10-11T00:00:00Z" ;
+  ex:timestamp_updated "1964-10-28T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_61_data" ;
+  .
+
+ex:source62
+  rdf:type ex:Description ;
+  ex:providing_institution "Odonnell, Hawkins and Sanchez" ;
+  ex:theme "Archeology" ;
+  ex:contributors "Austin Davila, Jessica Vasquez" ;
+  ex:creator "Bradley Henderson" ;
+  ex:type_of_object "3D" ;
+  ex:subject "cost, face" ;
+  ex:date "1099-03-18" ;
+  ex:title "Certainly western goal case." ;
+  ex:provider_collection_name "Montgomery, Faulkner and Kelly" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:places "South Thomas, Melendezhaven" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Latvia" ;
+  ex:language "de" ;
+  ex:timestamp_created "1099-03-18T00:00:00Z" ;
+  ex:timestamp_updated "1099-07-14T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_62_data" ;
+  .
+
+ex:source63
+  rdf:type ex:Description ;
+  ex:providing_institution "Maddox LLC" ;
+  ex:theme "Manuscript" ;
+  ex:contributors "Kaylee Welch, Jennifer Roberts" ;
+  ex:creator "Karen King" ;
+  ex:type_of_object "Video" ;
+  ex:subject "music, economic" ;
+  ex:date "1143-04-28" ;
+  ex:title "Ground nice third brother." ;
+  ex:provider_collection_name "Forbes-Gonzalez" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:identifier "Identifier-63" ;
+  ex:places "New Lauratown, Michaelmouth" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Honduras" ;
+  ex:language "es" ;
+  ex:timestamp_created "1143-04-28T00:00:00Z" ;
+  ex:timestamp_updated "1143-05-12T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_63_data" ;
+  .
+
+ex:source64
+  rdf:type ex:Description ;
+  ex:providing_institution "Duncan-Robinson" ;
+  ex:theme "Industrial Heritage" ;
+  ex:contributors "John Wilson, Brett George" ;
+  ex:creator "Amy Ross" ;
+  ex:type_of_object "Text" ;
+  ex:subject "treatment, present" ;
+  ex:date "1739-09-23" ;
+  ex:title "Store listen language right bar agent perhaps." ;
+  ex:provider_collection_name "Sanford Ltd" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:identifier "Identifier-64" ;
+  ex:places "Lake John, East Christopher" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Peru" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1739-09-23T00:00:00Z" ;
+  ex:timestamp_updated "1739-10-13T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_64_data" ;
+  .
+
+ex:source65
+  rdf:type ex:Description ;
+  ex:providing_institution "King-Jackson" ;
+  ex:theme "Music" ;
+  ex:contributors "Troy Escobar, John Peterson" ;
+  ex:creator "Clayton Harris" ;
+  ex:type_of_object "Text" ;
+  ex:subject "alone, fill" ;
+  ex:date "1170-08-29" ;
+  ex:title "School project throw pass serious attorney." ;
+  ex:provider_collection_name "Small LLC" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:identifier "Identifier-65" ;
+  ex:places "North Davidberg, Andreshaven" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Cote d'Ivoire" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1170-08-29T00:00:00Z" ;
+  ex:timestamp_updated "1170-10-26T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_65_data" ;
+  .
+
+ex:source66
+  rdf:type ex:Description ;
+  ex:providing_institution "Powell-Morales" ;
+  ex:theme "Art" ;
+  ex:contributors "Gina Douglas, April Yang" ;
+  ex:creator "Glenn Howard" ;
+  ex:type_of_object "Image" ;
+  ex:subject "accept, machine" ;
+  ex:date "1925-10-02" ;
+  ex:title "Coach pressure off again person necessary." ;
+  ex:provider_collection_name "Carney Inc" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:places "New Katherine, Lake Duaneview" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Ireland" ;
+  ex:language "it" ;
+  ex:timestamp_created "1925-10-02T00:00:00Z" ;
+  ex:timestamp_updated "1925-12-14T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_66_data" ;
+  .
+
+ex:source67
+  rdf:type ex:Description ;
+  ex:providing_institution "Brown Inc" ;
+  ex:theme "Music" ;
+  ex:contributors "Bradley Hernandez, Trevor Bryant" ;
+  ex:creator "Christopher Taylor" ;
+  ex:type_of_object "Image" ;
+  ex:subject "certainly, catch" ;
+  ex:date "1651-06-16" ;
+  ex:title "Not almost individual." ;
+  ex:provider_collection_name "Baker, Davis and Johnson" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:places "Lake Samanthaside, Moralesfurt" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Madagascar" ;
+  ex:language "es" ;
+  ex:timestamp_created "1651-06-16T00:00:00Z" ;
+  ex:timestamp_updated "1651-10-09T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_67_data" ;
+  .
+
+ex:source68
+  rdf:type ex:Description ;
+  ex:providing_institution "Cruz and Sons" ;
+  ex:theme "Manuscript" ;
+  ex:contributors "Debra Vaughn, William Black" ;
+  ex:creator "Sarah Adams" ;
+  ex:type_of_object "Image" ;
+  ex:subject "popular, care" ;
+  ex:date "1839-03-21" ;
+  ex:title "Few employee good." ;
+  ex:provider_collection_name "Garcia-Mcclain" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:identifier "Identifier-68" ;
+  ex:places "Donnachester, West Timothy" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Belize" ;
+  ex:language "it" ;
+  ex:timestamp_created "1839-03-21T00:00:00Z" ;
+  ex:timestamp_updated "1839-05-01T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_68_data" ;
+  .
+
+ex:source69
+  rdf:type ex:Description ;
+  ex:providing_institution "Douglas-Martinez" ;
+  ex:theme "Archeology" ;
+  ex:contributors "Margaret Washington, Jennifer Walker" ;
+  ex:creator "Michelle Maxwell" ;
+  ex:type_of_object "Image" ;
+  ex:subject "experience, hold" ;
+  ex:date "1061-08-28" ;
+  ex:title "Author to should law." ;
+  ex:provider_collection_name "Herman Group" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:identifier "Identifier-69" ;
+  ex:places "Christopherbury, Garyport" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Madagascar" ;
+  ex:language "en" ;
+  ex:timestamp_created "1061-08-28T00:00:00Z" ;
+  ex:timestamp_updated "1061-11-19T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_69_data" ;
+  .
+
+ex:source70
+  rdf:type ex:Description ;
+  ex:providing_institution "Whitney, Clay and Cooper" ;
+  ex:theme "Manuscript" ;
+  ex:contributors "Craig Fritz, Steven Hunter" ;
+  ex:creator "Vanessa Booker" ;
+  ex:type_of_object "3D" ;
+  ex:subject "democratic, agreement" ;
+  ex:date "1635-01-26" ;
+  ex:title "Least heavy night wonder." ;
+  ex:provider_collection_name "Mendez, Carson and Reed" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:places "Port Matthew, Lake Lisaberg" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Czech Republic" ;
+  ex:language "de" ;
+  ex:timestamp_created "1635-01-26T00:00:00Z" ;
+  ex:timestamp_updated "1635-04-02T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_70_data" ;
+  .
+
+ex:source71
+  rdf:type ex:Description ;
+  ex:providing_institution "Smith, Moore and Davila" ;
+  ex:theme "Maps and Geography" ;
+  ex:contributors "George Hampton, Rhonda Moore" ;
+  ex:creator "Nichole Rose" ;
+  ex:type_of_object "Image" ;
+  ex:subject "sister, kitchen" ;
+  ex:date "1474-11-30" ;
+  ex:title "Believe almost along machine out court each." ;
+  ex:provider_collection_name "Howard, Erickson and Ramirez" ;
+  ex:rights "All rights reserved" ;
+  ex:places "Aliciafort, East Dorothyville" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Cambodia" ;
+  ex:language "it" ;
+  ex:timestamp_created "1474-11-30T00:00:00Z" ;
+  ex:timestamp_updated "1474-12-20T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_71_data" ;
+  .
+
+ex:source72
+  rdf:type ex:Description ;
+  ex:providing_institution "Harris, Smith and Khan" ;
+  ex:theme "Manuscript" ;
+  ex:contributors "Nicole Brown, Sandy Clark" ;
+  ex:creator "Wesley Lewis" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "top, cause" ;
+  ex:date "1751-09-13" ;
+  ex:title "Rate idea away evidence in room only." ;
+  ex:provider_collection_name "Ferguson and Sons" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:identifier "Identifier-72" ;
+  ex:places "Sherrystad, Amyview" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Uganda" ;
+  ex:language "es" ;
+  ex:timestamp_created "1751-09-13T00:00:00Z" ;
+  ex:timestamp_updated "1752-01-05T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_72_data" ;
+  .
+
+ex:source73
+  rdf:type ex:Description ;
+  ex:providing_institution "Berger, Rogers and Rhodes" ;
+  ex:theme "Sport" ;
+  ex:contributors "Cindy Schultz, Daniel Wright" ;
+  ex:creator "Brittany Lawson" ;
+  ex:type_of_object "3D" ;
+  ex:subject "market, reveal" ;
+  ex:date "1280-08-06" ;
+  ex:title "Follow teach meet." ;
+  ex:provider_collection_name "White, Maynard and Hanson" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:identifier "Identifier-73" ;
+  ex:places "Vargasfort, Lake Brent" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Turkmenistan" ;
+  ex:language "de" ;
+  ex:timestamp_created "1280-08-06T00:00:00Z" ;
+  ex:timestamp_updated "1280-11-15T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_73_data" ;
+  .
+
+ex:source74
+  rdf:type ex:Description ;
+  ex:providing_institution "Hernandez and Sons" ;
+  ex:theme "Migration" ;
+  ex:contributors "Richard Lopez, Omar Craig" ;
+  ex:creator "Elizabeth Hall" ;
+  ex:type_of_object "Text" ;
+  ex:subject "class, unit" ;
+  ex:date "1007-11-15" ;
+  ex:title "Give exactly mind cost material authority." ;
+  ex:provider_collection_name "Graham, Evans and Miller" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:places "Lake Sean, Kathrynland" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Moldova" ;
+  ex:language "en" ;
+  ex:timestamp_created "1007-11-15T00:00:00Z" ;
+  ex:timestamp_updated "1007-11-19T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_74_data" ;
+  .
+
+ex:source75
+  rdf:type ex:Description ;
+  ex:providing_institution "Moreno and Sons" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Morgan Cox, Tracy Hart" ;
+  ex:creator "Karina Kramer" ;
+  ex:type_of_object "Text" ;
+  ex:subject "Congress, together" ;
+  ex:date "1592-10-07" ;
+  ex:title "Peace activity make." ;
+  ex:provider_collection_name "Stone Group" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:places "Wilsonshire, Jeffersonburgh" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Costa Rica" ;
+  ex:language "it" ;
+  ex:timestamp_created "1592-10-07T00:00:00Z" ;
+  ex:timestamp_updated "1592-12-27T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_75_data" ;
+  .
+
+ex:source76
+  rdf:type ex:Description ;
+  ex:providing_institution "Hawkins, Garrett and Stafford" ;
+  ex:theme "Maps and Geography" ;
+  ex:contributors "Jill Flores MD, Jessica Roy" ;
+  ex:creator "Justin Spencer" ;
+  ex:type_of_object "Video" ;
+  ex:subject "try, campaign" ;
+  ex:date "1347-07-31" ;
+  ex:title "His none good include." ;
+  ex:provider_collection_name "Santana-Smith" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:identifier "Identifier-76" ;
+  ex:places "Aliciamouth, Sylviabury" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Saint Helena" ;
+  ex:language "it" ;
+  ex:timestamp_created "1347-07-31T00:00:00Z" ;
+  ex:timestamp_updated "1347-09-24T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_76_data" ;
+  .
+
+ex:source77
+  rdf:type ex:Description ;
+  ex:providing_institution "Goodman Group" ;
+  ex:theme "Maps and Geography" ;
+  ex:contributors "Michael Coleman, Jasmine Torres" ;
+  ex:creator "Aaron Lynch" ;
+  ex:type_of_object "Text" ;
+  ex:subject "week, official" ;
+  ex:date "1707-04-02" ;
+  ex:title "Perhaps role page place understand collection." ;
+  ex:provider_collection_name "Andrews Ltd" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:identifier "Identifier-77" ;
+  ex:places "East Kevin, Lake Joseph" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "United States of America" ;
+  ex:language "de" ;
+  ex:timestamp_created "1707-04-02T00:00:00Z" ;
+  ex:timestamp_updated "1707-04-06T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_77_data" ;
+  .
+
+ex:source78
+  rdf:type ex:Description ;
+  ex:providing_institution "Coleman LLC" ;
+  ex:theme "Music" ;
+  ex:contributors "Philip Wright, Kevin Schwartz" ;
+  ex:creator "Ana Matthews" ;
+  ex:type_of_object "Image" ;
+  ex:subject "join, although" ;
+  ex:date "1350-01-17" ;
+  ex:title "Arrive picture rule recognize seek society president." ;
+  ex:provider_collection_name "Harris-Nunez" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:identifier "Identifier-78" ;
+  ex:places "Lake Joanton, Murphyshire" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Japan" ;
+  ex:language "en" ;
+  ex:timestamp_created "1350-01-17T00:00:00Z" ;
+  ex:timestamp_updated "1350-03-23T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_78_data" ;
+  .
+
+ex:source79
+  rdf:type ex:Description ;
+  ex:providing_institution "Sanchez-Sullivan" ;
+  ex:theme "Sport" ;
+  ex:contributors "Katie Williams, Victoria Hines" ;
+  ex:creator "Ronald Howell" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "training, probably" ;
+  ex:date "1601-06-11" ;
+  ex:title "Another conference report red build." ;
+  ex:provider_collection_name "Nunez PLC" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:places "Huntfurt, North Markstad" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Cape Verde" ;
+  ex:language "en" ;
+  ex:timestamp_created "1601-06-11T00:00:00Z" ;
+  ex:timestamp_updated "1601-06-17T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_79_data" ;
+  .
+
+ex:source80
+  rdf:type ex:Description ;
+  ex:providing_institution "Henry, Anderson and Lewis" ;
+  ex:theme "World War I" ;
+  ex:contributors "Richard Allen, Jordan Hall" ;
+  ex:creator "Christina Hawkins" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "lose, reflect" ;
+  ex:date "1837-03-18" ;
+  ex:title "Life open billion themselves believe risk." ;
+  ex:provider_collection_name "Hayes, Murphy and Gordon" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:identifier "Identifier-80" ;
+  ex:places "West Juliaburgh, West Derrick" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Italy" ;
+  ex:language "it" ;
+  ex:timestamp_created "1837-03-18T00:00:00Z" ;
+  ex:timestamp_updated "1837-05-27T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_80_data" ;
+  .
+
+ex:source81
+  rdf:type ex:Description ;
+  ex:providing_institution "Phillips PLC" ;
+  ex:theme "World War I" ;
+  ex:contributors "Allison Hoover, Laura Brown" ;
+  ex:creator "Holly Jones" ;
+  ex:type_of_object "Video" ;
+  ex:subject "drive, dinner" ;
+  ex:date "1973-01-26" ;
+  ex:title "Director always put modern nearly meeting." ;
+  ex:provider_collection_name "Fletcher-Rose" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-81" ;
+  ex:places "Port Jasmineshire, Melissaton" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Pakistan" ;
+  ex:language "en" ;
+  ex:timestamp_created "1973-01-26T00:00:00Z" ;
+  ex:timestamp_updated "1973-05-20T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_81_data" ;
+  .
+
+ex:source82
+  rdf:type ex:Description ;
+  ex:providing_institution "Gregory and Sons" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Victoria Brooks, Tiffany Guerrero" ;
+  ex:creator "Lindsay Marsh" ;
+  ex:type_of_object "Text" ;
+  ex:subject "smile, clearly" ;
+  ex:date "1085-07-09" ;
+  ex:title "Four game what ahead speech success." ;
+  ex:provider_collection_name "Aguirre, Bryant and Salas" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-82" ;
+  ex:places "Port Juan, New Alisha" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Chile" ;
+  ex:language "es" ;
+  ex:timestamp_created "1085-07-09T00:00:00Z" ;
+  ex:timestamp_updated "1085-09-30T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_82_data" ;
+  .
+
+ex:source83
+  rdf:type ex:Description ;
+  ex:providing_institution "Li-Collier" ;
+  ex:theme "Archeology" ;
+  ex:contributors "Victor Sparks, Tracy Wallace" ;
+  ex:creator "Dennis Collins" ;
+  ex:type_of_object "Video" ;
+  ex:subject "science, opportunity" ;
+  ex:date "1035-05-01" ;
+  ex:title "Personal stock teach star community degree." ;
+  ex:provider_collection_name "Webster, Conner and Williams" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-83" ;
+  ex:places "New Oliviaside, Johnsonhaven" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Faroe Islands" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1035-05-01T00:00:00Z" ;
+  ex:timestamp_updated "1035-05-29T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_83_data" ;
+  .
+
+ex:source84
+  rdf:type ex:Description ;
+  ex:providing_institution "Faulkner-Farrell" ;
+  ex:theme "World War I" ;
+  ex:contributors "Elizabeth Brady, Lisa Hamilton" ;
+  ex:creator "Tammy Hendrix" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "join, accept" ;
+  ex:date "1440-12-06" ;
+  ex:title "Bill pick small four agreement student want view." ;
+  ex:provider_collection_name "Crane-Shelton" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-84" ;
+  ex:places "Russellmouth, Michelleton" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "United States Virgin Islands" ;
+  ex:language "es" ;
+  ex:timestamp_created "1440-12-06T00:00:00Z" ;
+  ex:timestamp_updated "1440-12-14T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_84_data" ;
+  .
+
+ex:source85
+  rdf:type ex:Description ;
+  ex:providing_institution "Jones Inc" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Christopher King, Joshua Rivera" ;
+  ex:creator "Mark Johnson" ;
+  ex:type_of_object "Image" ;
+  ex:subject "avoid, including" ;
+  ex:date "2017-08-17" ;
+  ex:title "Rate share phone seek." ;
+  ex:provider_collection_name "Martin, Rodriguez and Li" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:places "North Kevinside, East Jay" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Tanzania" ;
+  ex:language "es" ;
+  ex:timestamp_created "2017-08-17T00:00:00Z" ;
+  ex:timestamp_updated "2017-12-01T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_85_data" ;
+  .
+
+ex:source86
+  rdf:type ex:Description ;
+  ex:providing_institution "Mclaughlin-Brown" ;
+  ex:theme "Manuscript" ;
+  ex:contributors "Richard Guzman, Christopher Henderson" ;
+  ex:creator "Leah Davis" ;
+  ex:type_of_object "Image" ;
+  ex:subject "single, so" ;
+  ex:date "1074-10-04" ;
+  ex:title "Avoid group consumer call toward purpose bad." ;
+  ex:provider_collection_name "George, Meyer and Wallace" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:identifier "Identifier-86" ;
+  ex:places "Margaretland, Hansonborough" ;
+  ex:format "text/plain" ;
+  ex:providing_country "United Kingdom" ;
+  ex:language "es" ;
+  ex:timestamp_created "1074-10-04T00:00:00Z" ;
+  ex:timestamp_updated "1074-10-10T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_86_data" ;
+  .
+
+ex:source87
+  rdf:type ex:Description ;
+  ex:providing_institution "Holden Ltd" ;
+  ex:theme "Natural History" ;
+  ex:contributors "Dr. Dean Oneal, Jaime Moyer" ;
+  ex:creator "Jeffrey Campbell" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "wear, break" ;
+  ex:date "1362-07-05" ;
+  ex:title "Myself lawyer weight process." ;
+  ex:provider_collection_name "Knapp, Ferguson and Davis" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:places "Port Leslieshire, East Stephanie" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Iraq" ;
+  ex:language "es" ;
+  ex:timestamp_created "1362-07-05T00:00:00Z" ;
+  ex:timestamp_updated "1362-09-22T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_87_data" ;
+  .
+
+ex:source88
+  rdf:type ex:Description ;
+  ex:providing_institution "Padilla, Gomez and Hogan" ;
+  ex:theme "Fashion" ;
+  ex:contributors "Melissa Vasquez, Jackson Berry" ;
+  ex:creator "Miss Anna Carr MD" ;
+  ex:type_of_object "Video" ;
+  ex:subject "treatment, alone" ;
+  ex:date "1808-02-27" ;
+  ex:title "Protect brother hope commercial social career traditional." ;
+  ex:provider_collection_name "King, Brown and Anderson" ;
+  ex:rights "http://creativecommons.org/licenses/by-sa/3.0/" ;
+  ex:identifier "Identifier-88" ;
+  ex:places "Harperton, Hendrixton" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Saint Vincent and the Grenadines" ;
+  ex:language "en" ;
+  ex:timestamp_created "1808-02-27T00:00:00Z" ;
+  ex:timestamp_updated "1808-04-17T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_88_data" ;
+  .
+
+ex:source89
+  rdf:type ex:Description ;
+  ex:providing_institution "Warner, Serrano and Rodriguez" ;
+  ex:theme "Photography" ;
+  ex:contributors "Craig Wilson, Kara Mccall" ;
+  ex:creator "Patricia Hopkins" ;
+  ex:type_of_object "Image" ;
+  ex:subject "nothing, the" ;
+  ex:date "1638-07-12" ;
+  ex:title "Early way she possible including." ;
+  ex:provider_collection_name "Nelson PLC" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:identifier "Identifier-89" ;
+  ex:places "Hernandezstad, Cooperstad" ;
+  ex:format "video/mp4" ;
+  ex:providing_country "Bahamas" ;
+  ex:language "it" ;
+  ex:timestamp_created "1638-07-12T00:00:00Z" ;
+  ex:timestamp_updated "1638-09-19T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_89_data" ;
+  .
+
+ex:source90
+  rdf:type ex:Description ;
+  ex:providing_institution "Rice-Pennington" ;
+  ex:theme "Newspapers" ;
+  ex:contributors "John Gray, Katelyn Hudson" ;
+  ex:creator "Anna Howard" ;
+  ex:type_of_object "Image" ;
+  ex:subject "ground, teach" ;
+  ex:date "1867-04-11" ;
+  ex:title "Radio begin respond answer speech let tend." ;
+  ex:provider_collection_name "Bennett, Wolfe and Williams" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:identifier "Identifier-90" ;
+  ex:places "Montoyatown, Mannbury" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Martinique" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1867-04-11T00:00:00Z" ;
+  ex:timestamp_updated "1867-07-09T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_90_data" ;
+  .
+
+ex:source91
+  rdf:type ex:Description ;
+  ex:providing_institution "Alexander PLC" ;
+  ex:theme "Manuscript" ;
+  ex:contributors "Troy Hernandez, Joyce Parker" ;
+  ex:creator "Nicole Jones" ;
+  ex:type_of_object "Text" ;
+  ex:subject "method, hand" ;
+  ex:date "1971-09-25" ;
+  ex:title "Own suffer cause news suffer fund almost." ;
+  ex:provider_collection_name "Patel, Parker and Johnson" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:places "Briannaside, Williamsonbury" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Gabon" ;
+  ex:language "en" ;
+  ex:timestamp_created "1971-09-25T00:00:00Z" ;
+  ex:timestamp_updated "1971-11-05T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_91_data" ;
+  .
+
+ex:source92
+  rdf:type ex:Description ;
+  ex:providing_institution "Dalton-Travis" ;
+  ex:theme "Archeology" ;
+  ex:contributors "Bradley Lee, Nicholas Rogers" ;
+  ex:creator "Kyle Boyd" ;
+  ex:type_of_object "3D" ;
+  ex:subject "arm, sometimes" ;
+  ex:date "1601-09-25" ;
+  ex:title "Cover eat start reason few." ;
+  ex:provider_collection_name "Moses, Craig and Ellis" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:identifier "Identifier-92" ;
+  ex:places "West Meganton, Annabury" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Ecuador" ;
+  ex:language "de" ;
+  ex:timestamp_created "1601-09-25T00:00:00Z" ;
+  ex:timestamp_updated "1601-12-21T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_92_data" ;
+  .
+
+ex:source93
+  rdf:type ex:Description ;
+  ex:providing_institution "Yang Group" ;
+  ex:theme "Art" ;
+  ex:contributors "Raymond Cross, Connie Moore" ;
+  ex:creator "Christina Hernandez" ;
+  ex:type_of_object "Video" ;
+  ex:subject "leg, real" ;
+  ex:date "1547-04-14" ;
+  ex:title "When upon deep hour long side crime." ;
+  ex:provider_collection_name "Patel LLC" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:identifier "Identifier-93" ;
+  ex:places "West Tina, Catherineberg" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Mali" ;
+  ex:language "en" ;
+  ex:timestamp_created "1547-04-14T00:00:00Z" ;
+  ex:timestamp_updated "1547-06-05T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_93_data" ;
+  .
+
+ex:source94
+  rdf:type ex:Description ;
+  ex:providing_institution "Phelps, Perry and Moreno" ;
+  ex:theme "World War I" ;
+  ex:contributors "Karen Moyer, Jessica Dorsey" ;
+  ex:creator "Andrew Foster" ;
+  ex:type_of_object "Video" ;
+  ex:subject "energy, no" ;
+  ex:date "1142-03-14" ;
+  ex:title "Machine off national store." ;
+  ex:provider_collection_name "Brady, Barnes and Doyle" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:places "South Christina, East Sharon" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "San Marino" ;
+  ex:language "en" ;
+  ex:timestamp_created "1142-03-14T00:00:00Z" ;
+  ex:timestamp_updated "1142-05-06T00:00:00Z" ;
+  ex:variety "semi-structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_94_data" ;
+  .
+
+ex:source95
+  rdf:type ex:Description ;
+  ex:providing_institution "Carter, Pena and Woods" ;
+  ex:theme "Art" ;
+  ex:contributors "Robert Cabrera, Lisa Miles" ;
+  ex:creator "Janet Gaines" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "ball, artist" ;
+  ex:date "1462-07-24" ;
+  ex:title "Tell around food way official its girl." ;
+  ex:provider_collection_name "Williams, Pollard and Wilson" ;
+  ex:rights "All rights reserved" ;
+  ex:identifier "Identifier-95" ;
+  ex:places "Paulbury, Blevinstown" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Dominican Republic" ;
+  ex:language "de" ;
+  ex:timestamp_created "1462-07-24T00:00:00Z" ;
+  ex:timestamp_updated "1462-08-22T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Monthly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_95_data" ;
+  .
+
+ex:source96
+  rdf:type ex:Description ;
+  ex:providing_institution "Kim-Oconnell" ;
+  ex:theme "Art" ;
+  ex:contributors "Amber Peterson, Kenneth Hodges" ;
+  ex:creator "Brenda Small" ;
+  ex:type_of_object "Text" ;
+  ex:subject "student, fall" ;
+  ex:date "1994-08-21" ;
+  ex:title "Official teach own nature say." ;
+  ex:provider_collection_name "Davis-Sawyer" ;
+  ex:rights "http://creativecommons.org/publicdomain/mark/1.0/" ;
+  ex:identifier "Identifier-96" ;
+  ex:places "Clarkland, Davidport" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Egypt" ;
+  ex:language "es" ;
+  ex:timestamp_created "1994-08-21T00:00:00Z" ;
+  ex:timestamp_updated "1994-08-26T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_96_data" ;
+  .
+
+ex:source97
+  rdf:type ex:Description ;
+  ex:providing_institution "Hunt and Sons" ;
+  ex:theme "Industrial Heritage" ;
+  ex:contributors "Whitney Logan, Angela Higgins" ;
+  ex:creator "Brittany King" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "air, she" ;
+  ex:date "1487-07-25" ;
+  ex:title "Just million despite degree both indicate." ;
+  ex:provider_collection_name "Garcia Inc" ;
+  ex:rights "http://creativecommons.org/licenses/by/3.0/" ;
+  ex:identifier "Identifier-97" ;
+  ex:places "New Nicholaschester, West Dannyfort" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Myanmar" ;
+  ex:language "de" ;
+  ex:timestamp_created "1487-07-25T00:00:00Z" ;
+  ex:timestamp_updated "1487-10-08T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Yearly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_97_data" ;
+  .
+
+ex:source98
+  rdf:type ex:Description ;
+  ex:providing_institution "Aguilar-Wheeler" ;
+  ex:theme "Newspapers" ;
+  ex:contributors "Carl Murray, Natalie Bennett" ;
+  ex:creator "Sue Hernandez" ;
+  ex:type_of_object "Sound" ;
+  ex:subject "phone, house" ;
+  ex:date "1159-04-15" ;
+  ex:title "Around meeting college message she government." ;
+  ex:provider_collection_name "Dominguez-Perry" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:identifier "Identifier-98" ;
+  ex:places "Matabury, South Alicia" ;
+  ex:format "image/jpeg" ;
+  ex:providing_country "Togo" ;
+  ex:language "en" ;
+  ex:timestamp_created "1159-04-15T00:00:00Z" ;
+  ex:timestamp_updated "1159-08-08T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_98_data" ;
+  .
+
+ex:source99
+  rdf:type ex:Description ;
+  ex:providing_institution "Jones, Lopez and Ali" ;
+  ex:theme "Art" ;
+  ex:contributors "Tammie Dodson, Joshua Fisher" ;
+  ex:creator "Dakota Ward" ;
+  ex:type_of_object "Text" ;
+  ex:subject "authority, when" ;
+  ex:date "1698-05-25" ;
+  ex:title "Full institution energy present history building." ;
+  ex:provider_collection_name "Thomas-Pacheco" ;
+  ex:rights "http://creativecommons.org/licenses/by-nc/3.0/" ;
+  ex:places "Adamshaven, Moodyton" ;
+  ex:format "text/plain" ;
+  ex:providing_country "Saint Lucia" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1698-05-25T00:00:00Z" ;
+  ex:timestamp_updated "1698-08-31T00:00:00Z" ;
+  ex:variety "unstructured" ;
+  ex:velocity "Daily" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_99_data" ;
+  .
+
+ex:source100
+  rdf:type ex:Description ;
+  ex:providing_institution "Rogers-Miller" ;
+  ex:theme "Manuscript" ;
+  ex:contributors "Brent Ramos, Denise Zavala" ;
+  ex:creator "Terry Walker" ;
+  ex:type_of_object "Video" ;
+  ex:subject "work, popular" ;
+  ex:date "1504-07-03" ;
+  ex:title "Yes southern site page son impact know." ;
+  ex:provider_collection_name "Glover, Morton and King" ;
+  ex:rights "http://creativecommons.org/publicdomain/zero/1.0/" ;
+  ex:places "Johnville, North Karen" ;
+  ex:format "audio/mp3" ;
+  ex:providing_country "Togo" ;
+  ex:language "fr" ;
+  ex:timestamp_created "1504-07-03T00:00:00Z" ;
+  ex:timestamp_updated "1504-08-28T00:00:00Z" ;
+  ex:variety "structured" ;
+  ex:velocity "Hourly" ;
+  ex:source_path "hdfs://your-hadoop-namenode:9000/user/sources/daily_flock_100_data" ;
+  .
+

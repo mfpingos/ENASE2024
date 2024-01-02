@@ -1,0 +1,16 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ex: <http://example.org/>
+
+SELECT ?flockid ?source_name ?source_path
+WHERE {
+  ?source rdf:type ex:Description ;
+          ex:flockid ?flockid ;
+          ex:source_name ?source_name ;
+          ex:source_path ?source_path ;
+          ex:sensors_accuracy "Medium" ;
+          ex:location "Limassol" ;
+          ex:variety "structured" ;
+          ex:velocity "Hourly" ; 
+          ex:flock_size "Low" ;
+          ex:year "2020" ;
+}
